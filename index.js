@@ -1,11 +1,25 @@
-var convert = require('xml-js');
-var xml =
-'<?xml version="1.0" encoding="utf-8"?>' +
-'<note importance="high" logged="true">' +
-'    <title>Happy</title>' +
-'    <todo>Work</todo>' +
-'    <todo>Play</todo>' +
-'</note>';
-var result1 = convert.xml2json(xml, {compact: true, spaces: 4});
-var result2 = convert.xml2json(xml, {compact: false, spaces: 4});
-console.log(result1, '\n', result2);
+const fs = require('fs');
+const convert = require('xml-js');
+ 
+const xml = fs.readFileSync('1016-nl-sys-obj-filtres-group.xml', 'utf8');
+let res = JSON.parse(convert.xml2json(xml, {compact: false, spaces: 4}));
+res = res.elements[0].elements
+
+res.forEach(el => {
+    el.elements.forEach(el =>{
+        if (el.name == 'attribute-definition') {
+            if(el.attributes['attribute-id'].includes('Filtre')){
+                console.log(el.attributes['attribute-id']);
+                el.elements.forEach(el => {
+                    if (el.name == 'display-name') {
+                        el.elements.forEach(el => {
+                            console.log('\t' + el.text);
+                            
+                        })
+                    }
+                    
+                });
+            }
+        }
+    });
+});
