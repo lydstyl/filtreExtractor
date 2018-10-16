@@ -1,0 +1,2349 @@
+    <category category-id="root">
+        <display-name xml:lang="x-default">NL BaByliss</display-name>
+        <display-name xml:lang="nl-NL">NL BaByliss</display-name>
+        <online-flag>true</online-flag>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">false</custom-attribute>
+        </custom-attributes>
+        <attribute-groups>
+            <attribute-group group-id="compare">
+                <display-name xml:lang="x-default">Compare</display-name>
+                <display-name xml:lang="nl-NL">Vergelijk</display-name>
+            </attribute-group>
+            <attribute-group group-id="storefrontAttributes">
+                <display-name xml:lang="x-default">Storefront Attributes</display-name>
+                <display-name xml:lang="fr-FR">Attributs de la boutique en ligne</display-name>
+                <display-name xml:lang="ja-JP">ストアフロント属性</display-name>
+                <display-name xml:lang="nl-NL">Attributen van de webshop</display-name>
+                <display-name xml:lang="zh-CN">网店属性</display-name>
+                <attribute attribute-id="label" system="false"/>
+            </attribute-group>
+        </attribute-groups>
+        <refinement-definitions>
+            <refinement-definition type="category" bucket-type="none">
+                <display-name xml:lang="x-default">Category</display-name>
+                <display-name xml:lang="fr-FR">Catégorie</display-name>
+                <display-name xml:lang="it-IT">Categoria</display-name>
+                <display-name xml:lang="ja-JP">カテゴリ</display-name>
+                <display-name xml:lang="nl-NL">Categorie</display-name>
+                <display-name xml:lang="zh-CN">分类</display-name>
+                <sort-mode>category-position</sort-mode>
+                <cutoff-threshold>5</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="values" attribute-id="refinementColor" system="false">
+                <display-name xml:lang="x-default">Color</display-name>
+                <display-name xml:lang="fr-FR">Coloris </display-name>
+                <display-name xml:lang="it-IT">Colori</display-name>
+                <display-name xml:lang="ja-JP">色</display-name>
+                <display-name xml:lang="nl-NL">Kleuren</display-name>
+                <display-name xml:lang="zh-CN">颜色</display-name>
+                <value-set>refinement-category</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <unbucketed-values-mode>show-values</unbucketed-values-mode>
+                <cutoff-threshold>5</cutoff-threshold>
+                <bucket-definitions>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Beige</display-name>
+                        <display-name xml:lang="fr-FR">Beige</display-name>
+                        <display-name xml:lang="it-IT">Beige</display-name>
+                        <display-name xml:lang="ja-JP">ベージュ</display-name>
+                        <display-name xml:lang="nl-NL">Beige</display-name>
+                        <display-name xml:lang="zh-CN">米黄色</display-name>
+                        <value-list xml:lang="x-default">beige</value-list>
+                        <presentation-id>beige</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Black</display-name>
+                        <display-name xml:lang="fr-FR">Noir</display-name>
+                        <display-name xml:lang="it-IT">Nero</display-name>
+                        <display-name xml:lang="ja-JP">ブラック</display-name>
+                        <display-name xml:lang="nl-NL">Zwart</display-name>
+                        <display-name xml:lang="zh-CN">黑色</display-name>
+                        <value-list xml:lang="x-default">black</value-list>
+                        <presentation-id>black</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Blue</display-name>
+                        <display-name xml:lang="fr-FR">Bleu</display-name>
+                        <display-name xml:lang="it-IT">Celeste</display-name>
+                        <display-name xml:lang="ja-JP">ブルー</display-name>
+                        <display-name xml:lang="nl-NL">Blauw</display-name>
+                        <display-name xml:lang="zh-CN">蓝色</display-name>
+                        <value-list xml:lang="x-default">blue</value-list>
+                        <presentation-id>blue</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Navy</display-name>
+                        <display-name xml:lang="fr-FR">Marine</display-name>
+                        <display-name xml:lang="it-IT">Blu scuro</display-name>
+                        <display-name xml:lang="ja-JP">ネイビー</display-name>
+                        <display-name xml:lang="nl-NL">Navy</display-name>
+                        <display-name xml:lang="zh-CN">海军蓝</display-name>
+                        <value-list xml:lang="x-default">navy</value-list>
+                        <presentation-id>navy</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Brown</display-name>
+                        <display-name xml:lang="fr-FR">Doré</display-name>
+                        <display-name xml:lang="it-IT">Dorato</display-name>
+                        <display-name xml:lang="ja-JP">ブラウン</display-name>
+                        <display-name xml:lang="nl-NL">Goud</display-name>
+                        <display-name xml:lang="zh-CN">棕色</display-name>
+                        <value-list xml:lang="x-default">brown</value-list>
+                        <presentation-id>brown</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Green</display-name>
+                        <display-name xml:lang="fr-FR">Vert</display-name>
+                        <display-name xml:lang="it-IT">Verde</display-name>
+                        <display-name xml:lang="ja-JP">グリーン</display-name>
+                        <display-name xml:lang="nl-NL">Groen</display-name>
+                        <display-name xml:lang="zh-CN">绿色</display-name>
+                        <value-list xml:lang="x-default">green</value-list>
+                        <presentation-id>green</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Grey</display-name>
+                        <display-name xml:lang="fr-FR">Gris</display-name>
+                        <display-name xml:lang="it-IT">Grigio</display-name>
+                        <display-name xml:lang="ja-JP">グレー</display-name>
+                        <display-name xml:lang="nl-NL">Grijs</display-name>
+                        <display-name xml:lang="zh-CN">灰色</display-name>
+                        <value-list xml:lang="x-default">grey</value-list>
+                        <presentation-id>grey</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Orange</display-name>
+                        <display-name xml:lang="fr-FR">Orange</display-name>
+                        <display-name xml:lang="it-IT">Arancione</display-name>
+                        <display-name xml:lang="ja-JP">オレンジ</display-name>
+                        <display-name xml:lang="nl-NL">Oranje</display-name>
+                        <display-name xml:lang="zh-CN">橙色</display-name>
+                        <value-list xml:lang="x-default">orange</value-list>
+                        <presentation-id>orange</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Pink</display-name>
+                        <display-name xml:lang="fr-FR">Rose</display-name>
+                        <display-name xml:lang="it-IT">Rosa</display-name>
+                        <display-name xml:lang="ja-JP">ピンク</display-name>
+                        <display-name xml:lang="nl-NL">Roze</display-name>
+                        <display-name xml:lang="zh-CN">粉色</display-name>
+                        <value-list xml:lang="x-default">pink</value-list>
+                        <presentation-id>pink</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Purple</display-name>
+                        <display-name xml:lang="fr-FR">Violet</display-name>
+                        <display-name xml:lang="it-IT">Viola</display-name>
+                        <display-name xml:lang="ja-JP">パープル</display-name>
+                        <display-name xml:lang="nl-NL">Paars</display-name>
+                        <display-name xml:lang="zh-CN">紫色</display-name>
+                        <value-list xml:lang="x-default">purple</value-list>
+                        <presentation-id>purple</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Red</display-name>
+                        <display-name xml:lang="fr-FR">Rouge</display-name>
+                        <display-name xml:lang="it-IT">Rosso</display-name>
+                        <display-name xml:lang="ja-JP">レッド</display-name>
+                        <display-name xml:lang="nl-NL">Rood</display-name>
+                        <display-name xml:lang="zh-CN">红色</display-name>
+                        <value-list xml:lang="x-default">red</value-list>
+                        <presentation-id>red</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">White</display-name>
+                        <display-name xml:lang="fr-FR">Blanc</display-name>
+                        <display-name xml:lang="it-IT">Bianco</display-name>
+                        <display-name xml:lang="ja-JP">ホワイト</display-name>
+                        <display-name xml:lang="nl-NL">Wit</display-name>
+                        <display-name xml:lang="zh-CN">白色</display-name>
+                        <value-list xml:lang="x-default">white</value-list>
+                        <presentation-id>white</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Yellow</display-name>
+                        <display-name xml:lang="fr-FR">Jaune</display-name>
+                        <display-name xml:lang="it-IT">Giallo</display-name>
+                        <display-name xml:lang="ja-JP">イエロー</display-name>
+                        <display-name xml:lang="nl-NL">Geel</display-name>
+                        <display-name xml:lang="zh-CN">黄色</display-name>
+                        <value-list xml:lang="x-default">yellow</value-list>
+                        <presentation-id>yellow</presentation-id>
+                    </attribute-bucket>
+                    <attribute-bucket>
+                        <display-name xml:lang="x-default">Miscellaneous</display-name>
+                        <display-name xml:lang="fr-FR">Autre</display-name>
+                        <display-name xml:lang="it-IT">Altro</display-name>
+                        <display-name xml:lang="ja-JP">その他</display-name>
+                        <display-name xml:lang="nl-NL">Anders</display-name>
+                        <display-name xml:lang="zh-CN">其它</display-name>
+                        <value-list xml:lang="x-default">miscellaneous</value-list>
+                        <presentation-id>miscellaneous</presentation-id>
+                    </attribute-bucket>
+                </bucket-definitions>
+            </refinement-definition>
+            <refinement-definition type="price" bucket-type="thresholds">
+                <display-name xml:lang="x-default">Price</display-name>
+                <display-name xml:lang="fr-FR">Prix</display-name>
+                <display-name xml:lang="it-IT">Prezzo</display-name>
+                <display-name xml:lang="ja-JP">価格</display-name>
+                <display-name xml:lang="nl-NL">Prijs</display-name>
+                <display-name xml:lang="zh-CN">价格</display-name>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>5</cutoff-threshold>
+                <bucket-definitions>
+                    <price-bucket currency="EUR">
+                        <display-name xml:lang="x-default">€0 - €19.99</display-name>
+                        <display-name xml:lang="fr-FR">0 € - 19,99 €</display-name>
+                        <display-name xml:lang="ja-JP">€0 ～ €19.99</display-name>
+                        <display-name xml:lang="nl-NL">€ 0 - € 19,99</display-name>
+                        <display-name xml:lang="zh-CN">0 - 19.99 欧元</display-name>
+                        <threshold>20</threshold>
+                    </price-bucket>
+                    <price-bucket currency="EUR">
+                        <display-name xml:lang="x-default">€20 - €49.99</display-name>
+                        <display-name xml:lang="fr-FR">20 € - 49,99 €</display-name>
+                        <display-name xml:lang="ja-JP">€20 ～ €49.99</display-name>
+                        <display-name xml:lang="nl-NL">€ 20 - € 49,99</display-name>
+                        <display-name xml:lang="zh-CN">20 - 49.99 欧元</display-name>
+                        <threshold>50</threshold>
+                    </price-bucket>
+                    <price-bucket currency="EUR">
+                        <display-name xml:lang="x-default">€50 - €99.99</display-name>
+                        <display-name xml:lang="fr-FR">50 € - 99,99 €</display-name>
+                        <display-name xml:lang="ja-JP">€50 ～ €99.99</display-name>
+                        <display-name xml:lang="nl-NL">€ 50 - € 99,99</display-name>
+                        <display-name xml:lang="zh-CN">50 - 99.99 欧元</display-name>
+                        <threshold>100</threshold>
+                    </price-bucket>
+                    <price-bucket currency="EUR">
+                        <display-name xml:lang="x-default">€100 - €499.00</display-name>
+                        <display-name xml:lang="fr-FR">100 € - 499 €</display-name>
+                        <display-name xml:lang="ja-JP">€100 ～ €499.00</display-name>
+                        <display-name xml:lang="nl-NL">€ 100 - € 499</display-name>
+                        <display-name xml:lang="zh-CN">100 - 499.00 欧元</display-name>
+                        <threshold>500</threshold>
+                    </price-bucket>
+                    <price-bucket currency="EUR">
+                        <display-name xml:lang="x-default">€500 - €999.99</display-name>
+                        <display-name xml:lang="fr-FR">500 € - 999,99 €</display-name>
+                        <display-name xml:lang="ja-JP">€500 ～ €999.99</display-name>
+                        <display-name xml:lang="nl-NL">€ 500 - € 999,99</display-name>
+                        <display-name xml:lang="zh-CN">500 - 999.99 欧元</display-name>
+                        <threshold>1000</threshold>
+                    </price-bucket>
+                    <price-bucket currency="EUR">
+                        <display-name xml:lang="x-default">€1000 - €1499.99</display-name>
+                        <display-name xml:lang="fr-FR">1 000 € - 1499,99 €</display-name>
+                        <display-name xml:lang="ja-JP">€1000 ～ €1499.99</display-name>
+                        <display-name xml:lang="nl-NL">€ 1.000 - € 1.499,99</display-name>
+                        <display-name xml:lang="zh-CN">1000 - 1499.99 欧元</display-name>
+                        <threshold>1500</threshold>
+                    </price-bucket>
+                    <price-bucket currency="EUR">
+                        <display-name xml:lang="x-default">€1500 - €1999.99</display-name>
+                        <display-name xml:lang="fr-FR">1 500 € - 1 999,99 €</display-name>
+                        <display-name xml:lang="ja-JP">€1500 ～ €1999.99</display-name>
+                        <display-name xml:lang="nl-NL">€ 1.500 - € 1.999,99</display-name>
+                        <display-name xml:lang="zh-CN">1500 - 1999.99 欧元</display-name>
+                        <threshold>2000</threshold>
+                    </price-bucket>
+                    <price-bucket currency="EUR">
+                        <display-name xml:lang="x-default">€2000 - €2499.99</display-name>
+                        <display-name xml:lang="fr-FR">2 000 € - 2 499,99 €</display-name>
+                        <display-name xml:lang="ja-JP">€2000 ～ €2499.99</display-name>
+                        <display-name xml:lang="nl-NL">€ 2.000 - € 2.499,99</display-name>
+                        <display-name xml:lang="zh-CN">2000 - 2499.99 欧元</display-name>
+                        <threshold>2500</threshold>
+                    </price-bucket>
+                    <price-bucket currency="EUR">
+                        <display-name xml:lang="x-default">€2500 - €4999.99</display-name>
+                        <display-name xml:lang="fr-FR">2 500 € - 4999,99 €</display-name>
+                        <display-name xml:lang="ja-JP">€2500 ～ €4999.99</display-name>
+                        <display-name xml:lang="nl-NL">€ 2.500 - € 4.999,99</display-name>
+                        <display-name xml:lang="zh-CN">2500 - 4999.99 欧元</display-name>
+                        <threshold>5000</threshold>
+                    </price-bucket>
+                    <price-bucket currency="EUR">
+                        <display-name xml:lang="x-default">€5000 - €9999.99</display-name>
+                        <display-name xml:lang="fr-FR">5 000 € - 9999,99 €</display-name>
+                        <display-name xml:lang="ja-JP">€5000 ～ €9999.99</display-name>
+                        <display-name xml:lang="nl-NL">€ 5.000 - € 9.999,99</display-name>
+                        <display-name xml:lang="zh-CN">5000 - 9999.99 欧元</display-name>
+                        <threshold>10000</threshold>
+                    </price-bucket>
+                    <price-bucket currency="USD">
+                        <display-name xml:lang="x-default">$0 - $19.99</display-name>
+                        <display-name xml:lang="fr-FR">0 $ - 19,99 $</display-name>
+                        <display-name xml:lang="ja-JP">$0 ～ $19.99</display-name>
+                        <display-name xml:lang="nl-NL">$ 0 - $ 19,99</display-name>
+                        <display-name xml:lang="zh-CN">0 - 19.99 美元</display-name>
+                        <threshold>20</threshold>
+                    </price-bucket>
+                    <price-bucket currency="USD">
+                        <display-name xml:lang="x-default">$20 - $49.99</display-name>
+                        <display-name xml:lang="fr-FR">20 $ - 49,99 $</display-name>
+                        <display-name xml:lang="ja-JP">$20 ～ $49.99</display-name>
+                        <display-name xml:lang="nl-NL">$ 20 - $ 49,99</display-name>
+                        <display-name xml:lang="zh-CN">20 - 49.99 美元</display-name>
+                        <threshold>50</threshold>
+                    </price-bucket>
+                    <price-bucket currency="USD">
+                        <display-name xml:lang="x-default">$50 - $99.99</display-name>
+                        <display-name xml:lang="fr-FR">50 $ - 99,99 $</display-name>
+                        <display-name xml:lang="ja-JP">$50 ～ $99.99</display-name>
+                        <display-name xml:lang="nl-NL">$ 50 - $ 99,99</display-name>
+                        <display-name xml:lang="zh-CN">50 - 99.99 美元</display-name>
+                        <threshold>100</threshold>
+                    </price-bucket>
+                    <price-bucket currency="USD">
+                        <display-name xml:lang="x-default">$100 - $499.99</display-name>
+                        <display-name xml:lang="fr-FR">100 $ - 499,99 $</display-name>
+                        <display-name xml:lang="ja-JP">$100 ～ $499.99</display-name>
+                        <display-name xml:lang="nl-NL">$ 100 - $ 499,99</display-name>
+                        <display-name xml:lang="zh-CN">100 - 499.99 美元</display-name>
+                        <threshold>500</threshold>
+                    </price-bucket>
+                    <price-bucket currency="USD">
+                        <display-name xml:lang="x-default">$500 - $999.99</display-name>
+                        <display-name xml:lang="fr-FR">500 $ - 999,99 $</display-name>
+                        <display-name xml:lang="ja-JP">$500 ～ $999.99</display-name>
+                        <display-name xml:lang="nl-NL">$ 500 - $ 999,99</display-name>
+                        <display-name xml:lang="zh-CN">500 - 999.99 美元</display-name>
+                        <threshold>1000</threshold>
+                    </price-bucket>
+                    <price-bucket currency="USD">
+                        <display-name xml:lang="x-default">$1,000 - $1,499.99</display-name>
+                        <display-name xml:lang="fr-FR">1 000 $ - 1 499,99 $</display-name>
+                        <display-name xml:lang="ja-JP">$1,000 ～ $1,499.99</display-name>
+                        <display-name xml:lang="nl-NL">$ 1.000 - $ 1.499,99</display-name>
+                        <display-name xml:lang="zh-CN">1000 - 1499.99 美元</display-name>
+                        <threshold>1500</threshold>
+                    </price-bucket>
+                    <price-bucket currency="USD">
+                        <display-name xml:lang="x-default">$1,500 - $1,999.99</display-name>
+                        <display-name xml:lang="fr-FR">1 500 $ - 1 999;99 $</display-name>
+                        <display-name xml:lang="ja-JP">$1,500 ～ $1,999.99</display-name>
+                        <display-name xml:lang="nl-NL">$ 1.500 - $ 1.999,99</display-name>
+                        <display-name xml:lang="zh-CN">1500 - 1999.99 美元</display-name>
+                        <threshold>2000</threshold>
+                    </price-bucket>
+                    <price-bucket currency="USD">
+                        <display-name xml:lang="x-default">$2,000 - $2,499.99</display-name>
+                        <display-name xml:lang="fr-FR">2 000 $ - 2 499,99 $</display-name>
+                        <display-name xml:lang="ja-JP">$2,000 ～ $2,499.99</display-name>
+                        <display-name xml:lang="nl-NL">$ 2.000 - $ 2.499,99</display-name>
+                        <display-name xml:lang="zh-CN">2000 - 2499.99 美元</display-name>
+                        <threshold>2500</threshold>
+                    </price-bucket>
+                    <price-bucket currency="USD">
+                        <display-name xml:lang="x-default">$2,500 - $4,999.99</display-name>
+                        <display-name xml:lang="fr-FR">2 500 $ - 4 999,99 $</display-name>
+                        <display-name xml:lang="ja-JP">$2,500 ～ $4,999.99</display-name>
+                        <display-name xml:lang="nl-NL">$ 2.500 - $ 4.999,99</display-name>
+                        <display-name xml:lang="zh-CN">2500 - 4999.99 美元</display-name>
+                        <threshold>5000</threshold>
+                    </price-bucket>
+                    <price-bucket currency="USD">
+                        <display-name xml:lang="x-default">$5,000  - $9,999.99</display-name>
+                        <display-name xml:lang="fr-FR">5 000 $ - 9 999,99 $</display-name>
+                        <display-name xml:lang="ja-JP">$5,000  ～ $9,999.99</display-name>
+                        <display-name xml:lang="nl-NL">$ 5.000 - $ 9.999,99</display-name>
+                        <display-name xml:lang="zh-CN">5000 - 9999.99 美元</display-name>
+                        <threshold>10000</threshold>
+                    </price-bucket>
+                    <price-bucket currency="USD">
+                        <display-name xml:lang="x-default">$10,000 - $14,999.99</display-name>
+                        <display-name xml:lang="fr-FR">10 000 $ - 14 999,99 $</display-name>
+                        <display-name xml:lang="ja-JP">$10,000 ～ $14,999.99</display-name>
+                        <display-name xml:lang="nl-NL">$ 10.000 - $ 14.999,99</display-name>
+                        <display-name xml:lang="zh-CN">10000 - 14999.99 美元</display-name>
+                        <threshold>15000</threshold>
+                    </price-bucket>
+                    <price-bucket currency="USD">
+                        <display-name xml:lang="x-default">$15,000 +</display-name>
+                        <display-name xml:lang="fr-FR">+ 15 000 $</display-name>
+                        <display-name xml:lang="ja-JP">$15,000 以上</display-name>
+                        <display-name xml:lang="nl-NL">+ $ 15.000</display-name>
+                        <display-name xml:lang="zh-CN">15000+ 美元</display-name>
+                        <threshold>100000</threshold>
+                    </price-bucket>
+                </bucket-definitions>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="isNew" system="false">
+                <display-name xml:lang="x-default">New Arrival</display-name>
+                <display-name xml:lang="fr-FR">Nouveautés</display-name>
+                <display-name xml:lang="it-IT">Novità</display-name>
+                <display-name xml:lang="ja-JP">新作</display-name>
+                <display-name xml:lang="nl-NL">Nieuw</display-name>
+                <display-name xml:lang="zh-CN">新品</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>5</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="brand" system="true">
+                <display-name xml:lang="x-default">brand</display-name>
+                <display-name xml:lang="fr-FR">Par marque</display-name>
+                <display-name xml:lang="it-IT">Dai marchi</display-name>
+                <display-name xml:lang="ja-JP">ブランド</display-name>
+                <display-name xml:lang="nl-NL">Per merk</display-name>
+                <display-name xml:lang="zh-CN">按品牌</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>5</cutoff-threshold>
+            </refinement-definition>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="vrouw">
+        <display-name xml:lang="x-default">Femme</display-name>
+        <display-name xml:lang="fr-FR">La femme</display-name>
+        <display-name xml:lang="it-IT">Donna</display-name>
+        <display-name xml:lang="ja-JP">新着</display-name>
+        <display-name xml:lang="nl-NL">Vrouw</display-name>
+        <display-name xml:lang="zh-CN">新品</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>7.0</position>
+        <template>rendering/cms/cms-univers-femme</template>
+        <page-attributes>
+            <page-title xml:lang="x-default">Women and Mens New Arrivals in Clothing, Jewelry, Accessories &amp; More</page-title>
+            <page-title xml:lang="fr-FR">BaByliss : LA référence coiffure, épilation et beauté pour femme</page-title>
+            <page-title xml:lang="it-IT">BaByliss:il partner ideale per la tua bellezza</page-title>
+            <page-title xml:lang="ja-JP">衣料、ジュエリー、アクセサリーなどのレディース &amp; メンズ新着</page-title>
+            <page-title xml:lang="nl-NL">Met BaByliss haarstylingtools creëer je atijd het mooiste resultaat</page-title>
+            <page-title xml:lang="zh-CN">男士及女士服装、珠宝首饰、配件新品及其他类别新品</page-title>
+            <page-description xml:lang="x-default">Shop all new arrivals including women and mens clothing, jewelry, accessories, suits &amp; more at Demandware</page-description>
+            <page-description xml:lang="fr-FR">Découvrez tout l'univers femme BaByliss : solutions professionnelles pour la coiffure, l'épilation et le maquillage</page-description>
+            <page-description xml:lang="it-IT">Scoprite l'universo BaByliss dedicato a tutte le donne: soluzioni professionali per lo styling di capelli, depilazione e bellezza del corpo</page-description>
+            <page-description xml:lang="ja-JP">レディース &amp; メンズ衣料、ジュエリー、アクセサリー、スーツなどを初めとする Demandware の全新着アイテムのご購入</page-description>
+            <page-description xml:lang="nl-NL">Ontdek de haarstylingtools van BaByliss. Bekijk onze föhnborstels, krultangen, Curl Secret, föhns en meer!</page-description>
+            <page-description xml:lang="zh-CN">在 Demandware 购物，挑选最新的女士及男士服装、珠宝首饰、配件及其他类别商品</page-description>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">&lt;p&gt;&lt;a class="banner-link js-gtm-push" href="$httpsUrl('Page-Show', 'cid', 'ken-je-haar-tool')$" data-gtm-pushtype="Push Product Top"&gt;&#13;
+&lt;img alt="" src="images/banner-kenjehaar.jpg?$staticlink$" title="Ken je haar-tool" /&gt;&lt;/a&gt; &#13;
+&lt;a class="banner-link js-gtm-push" href="$httpsUrl('Product-Show', 'pid', 'AS510E')$" data-gtm-pushtype="Push Product Bottom"&gt;&#13;
+&lt;img alt="" src="images/creative banner nav.jpg?$staticlink$" title="Creative Roterende Föhnborstel AS510E" /&gt;&lt;/a&gt;&lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Vertical</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">false</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="values" attribute-id="isNew" system="false">
+                <display-name xml:lang="x-default">New Arrival</display-name>
+                <display-name xml:lang="fr-FR">Nouveautés</display-name>
+                <display-name xml:lang="it-IT">Novità</display-name>
+                <display-name xml:lang="ja-JP">新作</display-name>
+                <display-name xml:lang="nl-NL">Nieuw</display-name>
+                <display-name xml:lang="zh-CN">新品</display-name>
+                <value-set>refinement-category</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <unbucketed-values-mode>show-values</unbucketed-values-mode>
+                <cutoff-threshold>5</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="sheets" system="false">
+                <display-name xml:lang="x-default">bySheets</display-name>
+                <display-name xml:lang="fr-FR">par fiche</display-name>
+                <display-name xml:lang="it-IT">dalle schede</display-name>
+                <display-name xml:lang="ja-JP">シート別</display-name>
+                <display-name xml:lang="nl-NL">Per bestand</display-name>
+                <display-name xml:lang="zh-CN">bySheets</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>5</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="attribute" attribute-id="brand" system="true"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="haarverzorging">
+        <display-name xml:lang="x-default">Coiffure</display-name>
+        <display-name xml:lang="nl-NL">Haarverzorging</display-name>
+        <online-flag>true</online-flag>
+        <parent>vrouw</parent>
+        <position>5.0</position>
+        <image>images/slot/sub_banners/cat-banner-electronics.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="x-default">Coiffure pour les femmes</page-title>
+            <page-title xml:lang="nl-NL">Haarverzorging voor vrouwen</page-title>
+            <page-description xml:lang="x-default">Coiffure pour les femmes</page-description>
+            <page-description xml:lang="nl-NL">Haarverzorging voor vrouwen</page-description>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">sfgqsfdfgsdfsdfdsf</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">images/slot/landing/cat-landing-slotbottom-electronics.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="curl-secret">
+        <display-name xml:lang="x-default">Curl Secret</display-name>
+        <display-name xml:lang="fr-FR">Curl Secret</display-name>
+        <display-name xml:lang="it-IT">Curl Secret</display-name>
+        <display-name xml:lang="nl-NL">Curl Secret</display-name>
+        <online-flag>true</online-flag>
+        <parent>haarverzorging</parent>
+        <position>11.0</position>
+        <image>categories/curl_secret.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Curl Secret : LE boucleur automatique - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Curl Secret: L' originale arricciacapelli automatico - BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Curl Secret - Dé automatische krultang van BaByliss</page-title>
+            <page-description xml:lang="fr-FR">L'iconique Curl Secret : le boucleur automatique ionique révolutionnaire ! Avec sa facilité d'utilisation, obtenez des boucles rapidement et sans effort !</page-description>
+            <page-description xml:lang="it-IT">Curl Secret: il rivoluzionario arricciacapelli automatico con funzione Ionic! Grazie alla facilità dell'uso, create favolose onde e ricci in soli 8 secondi.</page-description>
+            <page-description xml:lang="nl-NL">Bekijk hier de Curl Secret stylingtools van BaByliss. De automatische krultang met ionische (anti-statische) functie. Zo maak je gemakkelijk mooie krullen</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/coiffure/curl-secret/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/curl-secret</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="attributesProductComparable">CurlerType;Matter;Temperatures;Ionic;DirectionOfRotationChoice;LayingTimeChoice;AccessoryDiameter;RecommendedRetailPrice</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Vind jij een krultang te ingewikkeld, maar wil je toch graag perfecte krullen? &lt;/br&gt;Dan is de Curl Secret van BaByliss dé ideale stylingtool voor jou. &lt;/br&gt;Met deze automatische krultang, waar BaByliss de uitvinder van is, kan iedereen makkelijk&lt;/br&gt; mooie krullen maken. Creëer snel en makkelijk drie verschillende soorten krullen: &lt;/br&gt;compacte krullen, grove krullen of beachy waves die lang in model blijven.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/CURL_header_800X800.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreBoucles" system="false">
+                <display-name xml:lang="x-default">Boucle</display-name>
+                <display-name xml:lang="fr-FR">Boucle</display-name>
+                <display-name xml:lang="it-IT">Riccio</display-name>
+                <display-name xml:lang="nl-NL">Type krul</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFonctions" system="false">
+                <display-name xml:lang="x-default">Fonction</display-name>
+                <display-name xml:lang="fr-FR">Fonction</display-name>
+                <display-name xml:lang="it-IT">Funzioni</display-name>
+                <display-name xml:lang="nl-NL">Functies</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreSensDeBouclage" system="false">
+                <display-name xml:lang="x-default">Sens de Bouclage</display-name>
+                <display-name xml:lang="fr-FR">Sens De Bouclage</display-name>
+                <display-name xml:lang="it-IT">Direzione del riccio</display-name>
+                <display-name xml:lang="nl-NL">Krulrichting</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+            <blocked-refinement-definition type="price"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="fohns">
+        <display-name xml:lang="x-default">Sèche cheveux</display-name>
+        <display-name xml:lang="fr-FR">Les sèche-cheveux</display-name>
+        <display-name xml:lang="it-IT">Asciugacapelli</display-name>
+        <display-name xml:lang="nl-NL">Föhns</display-name>
+        <description xml:lang="fr-FR">Une coiffure pro sans bouger de chez vous</description>
+        <description xml:lang="it-IT">Piega professionale comodamente a casa</description>
+        <description xml:lang="nl-NL">Een professioneel kapsel bij jou thuis</description>
+        <online-flag>true</online-flag>
+        <parent>haarverzorging</parent>
+        <position>12.0</position>
+        <image>categories/seche_cheveux.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Sèche-cheveux : Découvrez notre gamme - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Asciugacapelli:Scoprite la nostra gamma - BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Föhns - Net zo mooi resultaat als bij de kapper met BaByliss föhns</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos sèches cheveux : seche cheveux professionnels, seche cheveux silencieux, seche cheveux de voyage, seche cheveux ionique... et plus encore !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri asciugacapelli: asciugacapelli professionali, asciugacapelli silenziosi, asciugacapelli da viaggio, asciugacapelli ionici… e molto altro!</page-description>
+            <page-description xml:lang="nl-NL">Bekijk hier de föhns van BaByliss. Wil je een digitale föhn, een föhn met diffuser of een reisföhn? Ontdek hier ons assortiment</page-description>
+            <page-url xml:lang="x-default">https://www.babyliss.fr/femme/coiffure/seche-cheveux/</page-url>
+            <page-url xml:lang="fr-FR">http://www.babyliss.fr/femme/coiffure/seche-cheveux/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/fohns</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="attributesProductComparable">AirDryerType;AirFlow;TemperaturesSpeeds;Accessories;Ionic;Watts;RecommendedRetailPrice</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">F&amp;ouml;hn je haar zelf net zo mooi als de kapper.&amp;nbsp;&lt;br /&gt;&#13;
+Ontdek welke&amp;nbsp;haardroger bij jou en jouw haartype past.&amp;nbsp;&lt;br /&gt;&#13;
+Kies voor een f&amp;ouml;hn met diffuser als je je (krullende) haar&lt;br /&gt;&#13;
+extra volume wil geven, zonder pluis.&amp;nbsp;Met al onze f&amp;ouml;hns&lt;br /&gt;&#13;
+breng jij je haar snel en eenvoudig in model.&amp;nbsp;&lt;br /&gt;&#13;
+Op vakantie of&amp;nbsp;een weekendje weg?&lt;br /&gt;&#13;
+Neem dan een compacte of&amp;nbsp;inklapbare reisf&amp;ouml;hn mee.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/seche-cheveux.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreVitesseDAir" system="false">
+                <display-name xml:lang="x-default">Vitesse d'air</display-name>
+                <display-name xml:lang="fr-FR">Vitesse d'air</display-name>
+                <display-name xml:lang="it-IT">Velocità dell'aria</display-name>
+                <display-name xml:lang="nl-NL">Luchtsnelheid</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFonctions" system="false">
+                <display-name xml:lang="x-default">Fonction</display-name>
+                <display-name xml:lang="fr-FR">Fonction</display-name>
+                <display-name xml:lang="it-IT">Funzioni</display-name>
+                <display-name xml:lang="nl-NL">Functies</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreAccessoire" system="false">
+                <display-name xml:lang="x-default">Accessoire</display-name>
+                <display-name xml:lang="fr-FR">Accessoire</display-name>
+                <display-name xml:lang="it-IT">Accessori</display-name>
+                <display-name xml:lang="nl-NL">Accessoires</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreBesoins" system="false">
+                <display-name xml:lang="x-default">Besoin</display-name>
+                <display-name xml:lang="fr-FR">Besoin</display-name>
+                <display-name xml:lang="it-IT">Bisogno</display-name>
+                <display-name xml:lang="nl-NL">Eigenschappen</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+            <blocked-refinement-definition type="price"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="fohnborstels">
+        <display-name xml:lang="x-default">Brosses Soufflantes</display-name>
+        <display-name xml:lang="fr-FR">Brosses Soufflantes</display-name>
+        <display-name xml:lang="it-IT">Spazzole ad aria calda</display-name>
+        <display-name xml:lang="nl-NL">Föhnborstels</display-name>
+        <online-flag>true</online-flag>
+        <parent>haarverzorging</parent>
+        <position>13.0</position>
+        <image>categories/brosses_soufflantes.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Brosse soufflante : Découvrez notre gamme - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Spazzole ad aria calda: Scoprite la nostra gamma - BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Föhnborstels - Je haar drogen en stylen met föhnborstels van BaByliss</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos brosses soufflantes : brosse soufflante lissante ou brosse soufflante rotative - Brushing facile pour un cheveu soyeux !</page-description>
+            <page-description xml:lang="it-IT">Scoprite tutte nostre spazzole soffianti: rotanti o multi-accessoriate per una piega facile e professionale! Finalmente, i gesti dell'hairstylist a casa vostra!</page-description>
+            <page-description xml:lang="nl-NL">Bekijk hier de föhnborstels van BaByliss. Ook wel bekend als warme luchtborstel of elektrische haarborstel. Creëer gemakkelijk extra volume en mooie slag!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/coiffure/brosse-soufflante/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/fohnborstels</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="attributesProductComparable">AirBrushType;TemperaturesSpeeds;BrushNumber;DiameterWithoutFur;Accessories;FreshAirPosition;Ionic;RecommendedRetailPrice</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Haar alsof je net van de kapper komt! Een föhnborstel biedt&lt;/br&gt; het beste van twee werelden: een föhn en een losse, ronde borstel. &lt;/br&gt;Met een föhnborstel (ook wel bekend als: warme luchtborstel of &lt;/br&gt;elektrische haarborstel) breng jij je haar perfect in model met extra &lt;/br&gt;volume en mooie slag!</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFonctions" system="false">
+                <display-name xml:lang="x-default">Fonction</display-name>
+                <display-name xml:lang="fr-FR">Fonction</display-name>
+                <display-name xml:lang="it-IT">Funzioni</display-name>
+                <display-name xml:lang="nl-NL">Functies</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreBrosse" system="false">
+                <display-name xml:lang="x-default">Brosse</display-name>
+                <display-name xml:lang="fr-FR">Brosse</display-name>
+                <display-name xml:lang="it-IT">Spazzola </display-name>
+                <display-name xml:lang="nl-NL">Borstelpinnen</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreAccessoire" system="false">
+                <display-name xml:lang="x-default">Accessoire</display-name>
+                <display-name xml:lang="fr-FR">Accessoire</display-name>
+                <display-name xml:lang="it-IT">Accessori</display-name>
+                <display-name xml:lang="nl-NL">Accessoires</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+            <blocked-refinement-definition type="price"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="Stijlborstels">
+        <display-name xml:lang="x-default">Brosse lissante Liss Brush</display-name>
+        <display-name xml:lang="fr">Brosse lissante</display-name>
+        <display-name xml:lang="fr-FR">Liss Brush 3D</display-name>
+        <display-name xml:lang="it-IT">Liss Brush 3D</display-name>
+        <display-name xml:lang="nl-NL">Hot Straightening Brush</display-name>
+        <online-flag>true</online-flag>
+        <parent>haarverzorging</parent>
+        <position>14.0</position>
+        <image>categories/headerhsb.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <sitemap-included-flag>true</sitemap-included-flag>
+        <sitemap-changefrequency>weekly</sitemap-changefrequency>
+        <sitemap-priority>0.8</sitemap-priority>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Liss Brush 3D : LA brosse lissante - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Liss Brush 3D: La spazzola lisciante -BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Hot Straightening Brush - De stijlborstels van BaByliss</page-title>
+            <page-description xml:lang="fr-FR">Découvrez la brosse lissante Liss Brush 3D : la brosse lissante chauffante indispensable pour vos coiffures grâce à sa fonction ionique !</page-description>
+            <page-description xml:lang="it-IT">Scoprite la spazzola lisciante elettrica Liss Brish 3D: il nuovo styler in grado di lisciare e combattere il crespo grazie alla sua funzione ionica!</page-description>
+            <page-description xml:lang="nl-NL">Bekijk hier de Hot Straightening Brush. Ook wel bekend als verwarmde stijlborstel. Met ionische functie, onmisbaar om snel, stijl haar met volume te creëren</page-description>
+            <page-url xml:lang="x-default">vrouw/haarverzorging</page-url>
+            <page-url xml:lang="nl-NL">vrouw/haarverzorging/hot-straightening-brush</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Je haar steilen met volume én borstelen? Met de stijlborstel creëer je steil haar met volume!&lt;/br&gt; Altijd on the go? De mini stijlborstel is ideaal om mee te nemen: in je tas of op reis!</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreBesoins" system="false">
+                <display-name xml:lang="x-default">Eigenschappen</display-name>
+                <display-name xml:lang="nl-NL">Eigenschappen</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>5</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+            <blocked-refinement-definition type="price"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="krultangen">
+        <display-name xml:lang="x-default">Fers à boucler</display-name>
+        <display-name xml:lang="fr-FR">Fers à boucler</display-name>
+        <display-name xml:lang="it-IT">Arricciacapelli</display-name>
+        <display-name xml:lang="nl-NL">Krultangen</display-name>
+        <online-flag>true</online-flag>
+        <parent>haarverzorging</parent>
+        <position>15.0</position>
+        <image>categories/fer_boucler.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Fer à boucler : Découvrez notre gamme - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Arricciacapelli: Scoprite la nostra gamma - BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Krultangen - BaByliss is de uitvinder van de elektrische krultang!</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos fers à boucler : fer à boucler conique, fer à boucler gros diamètre, fer à boucler pro... Osez les boucles glamours !</page-description>
+            <page-description xml:lang="it-IT">Scoprite tutti i nostri ferri arricciacapelli:  arricciacapelli di grande diametro per onde naturali, ferro doppio per onde strette ed effetto beach waves, ferri arricciacapelli digitali… Osate un curly look lamour!</page-description>
+            <page-description xml:lang="nl-NL">Bekijk hier onze krultangen. Met ons brede assortiment kun je verschillende krullen maken. Kleine, compacte krullen, maar ook grove en beachy waves</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/coiffure/fer-a-boucler/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/krultangen</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="attributesProductComparable">CurlerType;Matter;Temperatures;Diameter;Ionic;RecommendedRetailPrice</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Wist jij dat de eerste elektronische krultang al in 1961&lt;br /&gt;&#13;
+door BaByliss uitgevonden werd? Sindsdien is BaByliss&lt;br /&gt;&#13;
+h&amp;eacute;t merk voor stylingtools voor krullen. Met ons brede&lt;br /&gt;&#13;
+assortiment krultangen kun je verschillende type krullen&lt;br /&gt;&#13;
+maken. Kleine, compacte krullen? Kies dan voor een dunne &lt;br /&gt;&#13;
+krultang (19mm of 25mm). Wil jij liever&amp;nbsp;grove krullen of beachy waves?&lt;br /&gt;&#13;
+Dan is een krultang met een grote diameter (38mm) perfect voor jou.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/fer_boucler.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreBoucles" system="false">
+                <display-name xml:lang="x-default">Boucle</display-name>
+                <display-name xml:lang="fr-FR">Boucle</display-name>
+                <display-name xml:lang="it-IT">Riccio</display-name>
+                <display-name xml:lang="nl-NL">Type krul</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreAccessoire" system="false">
+                <display-name xml:lang="x-default">Accessoire</display-name>
+                <display-name xml:lang="fr-FR">Accessoire</display-name>
+                <display-name xml:lang="it-IT">Accessori</display-name>
+                <display-name xml:lang="nl-NL">Accessoires</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="Mini">
+        <display-name xml:lang="x-default">Mini’s</display-name>
+        <display-name xml:lang="fr-FR">Produits Minis (voyage)</display-name>
+        <display-name xml:lang="nl-NL">Mini Stylingtools</display-name>
+        <online-flag>true</online-flag>
+        <parent>haarverzorging</parent>
+        <position>16.0</position>
+        <image>categories/Header-mini.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="nl-NL">Mini Stylingtools - Ideaal voor op reis! De mini sylingtools van BaByliss</page-title>
+            <page-description xml:lang="nl-NL">Bekijk hier de mini stylingtools van BaByliss. Ideaal voor in je tas of op reis. Kies uit onze mini stijltangen, hot straightening brush en krultang</page-description>
+            <page-url xml:lang="nl-NL">vrouw/mini-stylingtools</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="attributesProductComparable">RecommendedRetailPrice</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Wil je er altijd verzorgd uitzien? Of ga je binnenkort op vakantie? &lt;br /&gt;&#13;
+Onze mini stylingtools passen altijd in je tas of koffer!&lt;br /&gt; &#13;
+Of je nu je haar wilt steilen, krullen of losse beachy waves wil maken, &lt;br /&gt;&#13;
+met onze mini's cre&amp;euml;er je elke haarstyle die je maar wil.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/H130E Flatlay 2 (1).jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <blocked-refinement-definition type="attribute" attribute-id="sheets" system="false"/>
+            <blocked-refinement-definition type="attribute" attribute-id="isNew" system="false"/>
+            <blocked-refinement-definition type="price"/>
+            <blocked-refinement-definition type="attribute" attribute-id="refinementColor" system="false"/>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="multi-styler">
+        <display-name xml:lang="x-default">Multi stylers et bigoudis</display-name>
+        <display-name xml:lang="fr-FR">Multi stylers et bigoudis</display-name>
+        <display-name xml:lang="it-IT">Multi stylers e bigodini</display-name>
+        <display-name xml:lang="nl-NL">Multistylers en krulsets</display-name>
+        <online-flag>true</online-flag>
+        <parent>haarverzorging</parent>
+        <position>17.0</position>
+        <image>images/multistylers-et-bigoudis_header.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Multi Styler : Découvre notre gamme - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Multi Styler : Scoprite la nostra gamma - BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Multistylers en krulsets - Je haar krullen zonder krultang</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos Multistyler : le Fun Style et le Style Mix - Pleins d'accessoires pour oser tous les styles !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri Multistyler: il Fun Style e il Style Mix- Tanti accessori per osare tutti gli stili!</page-description>
+            <page-description xml:lang="nl-NL">Bekijk hier de multistylers van BaByliss. Heb je liever krullen, wafels of steil haar? Je kan het allemaal zelf met deze stylingtool</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/coiffure/multi-styler/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/multistyler</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="attributesProductComparable">CurlerType;Matter;Temperatures;Diameter;Ionic;RecommendedRetailPrice</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Wil jij je haar krullen zonder krultang?&amp;nbsp;Kies dan voor&lt;br /&gt;&#13;
+een elektronische krulset.&amp;nbsp;BaByliss heeft voor jou&lt;br /&gt;&#13;
+de beste krulsets:&amp;nbsp;van een krulset met kleine rollers&lt;br /&gt;&#13;
+voor kort haar tot&amp;nbsp;een krulset met grote rollers &lt;br /&gt;&#13;
+voor lang haar. Zelfs op reis genieten van een &lt;br /&gt;&#13;
+volumineuze slag? Onze compacte reiskrulset &lt;br/&gt;&#13;
+neem je gemakkelijk overal mee naartoe.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreBesoins" system="false">
+                <display-name xml:lang="x-default">Besoin</display-name>
+                <display-name xml:lang="fr-FR">Besoin</display-name>
+                <display-name xml:lang="it-IT">Bisogno</display-name>
+                <display-name xml:lang="nl-NL">Eigenschappen</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreBoucles" system="false">
+                <display-name xml:lang="x-default">Boucle</display-name>
+                <display-name xml:lang="fr-FR">Boucle</display-name>
+                <display-name xml:lang="it-IT">Riccio</display-name>
+                <display-name xml:lang="nl-NL">Type krul</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreAccessoire" system="false">
+                <display-name xml:lang="x-default">Accessoire</display-name>
+                <display-name xml:lang="fr-FR">Accessoire</display-name>
+                <display-name xml:lang="it-IT">Accessori</display-name>
+                <display-name xml:lang="nl-NL">Accessoires</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+            <blocked-refinement-definition type="price"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="stijltangen">
+        <display-name xml:lang="x-default">Lisseurs</display-name>
+        <display-name xml:lang="fr-FR">Les lisseurs</display-name>
+        <display-name xml:lang="it-IT">Le piastre liscianti</display-name>
+        <display-name xml:lang="nl-NL">Stijltangen</display-name>
+        <description xml:lang="fr-FR">Un résultat irréprochable sur vos mèches</description>
+        <description xml:lang="it-IT">Un risultato impeccabile sui vostri capelli</description>
+        <description xml:lang="nl-NL">Het perfecte resultaat voor jouw haar</description>
+        <online-flag>true</online-flag>
+        <parent>haarverzorging</parent>
+        <position>18.0</position>
+        <image>categories/lisseurs.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Fer à lisser / lisseur : Découvrez notre gamme - BaByliss</page-title>
+            <page-title xml:lang="it-IT">Piastre liscianti: Scoprite la nostra gamma  -BaByliss</page-title>
+            <page-title xml:lang="nl-NL">Stijltangen - Het allerbeste voor je haar met de stijltangen van BaByliss</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos fers à lisser : lisseur vapeur, fer à lisser professionnel ou lisseur boucleur - Finis les frisottis!</page-description>
+            <page-description xml:lang="it-IT">Scoprite tutti i nostri styler: piastra a vapore, piastra professionale extra-large o piastra 2 in 1 liscia e arriccia - Addio crespo e capelli ribelli!</page-description>
+            <page-description xml:lang="nl-NL">Bekijk hier de stijltangen van BaByliss. Professionele stijltangen, met of zonder stoom of een krul- &amp; stijltang in 1. Met keramische coating!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/coiffure/lisseur/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/stijltangen</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="attributesProductComparable">StraightenerType;HairType;PlatesMatter;Temperatures;WetAndDry;CurlerFunction;VaporFunction;Ionic;RecommendedRetailPrice</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Wil jij glad en glanzend stijl haar zonder pluis? &lt;br/&gt;Met de Babyliss stijltang heb jij het allerbeste voor je haar. &lt;br/&gt;De platen en het krachtige verwarmingselement met keramiek &lt;br/&gt;verdelen de warmte gelijkmatig. Zo creëer je steil &lt;br/&gt;haar in één vloeiende beweging. Kies je favoriet:&lt;br/&gt;een klassieke stijltang, een stoomstijltang, een 2-in-1 &lt;br/&gt;stijltang zodat je ook kunt krullen met je stijltang &lt;/br&gt;óf kies voor de mini stijltang.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/lisseurs.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFonctions" system="false">
+                <display-name xml:lang="x-default">Fonction</display-name>
+                <display-name xml:lang="fr-FR">Fonction</display-name>
+                <display-name xml:lang="it-IT">Funzioni</display-name>
+                <display-name xml:lang="nl-NL">Functies</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreLongueurDeCheveux" system="false">
+                <display-name xml:lang="x-default">Longueur des cheveux</display-name>
+                <display-name xml:lang="fr-FR">Longueur des cheveux</display-name>
+                <display-name xml:lang="it-IT">Lunghezza dei capelli</display-name>
+                <display-name xml:lang="nl-NL">Haarlengte</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreTypeDeCheveux" system="false">
+                <display-name xml:lang="x-default">Type de Cheveux</display-name>
+                <display-name xml:lang="fr-FR">Type de Cheveux</display-name>
+                <display-name xml:lang="it-IT">Tipo di capelli</display-name>
+                <display-name xml:lang="nl-NL">Haartype</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreAccessoire" system="false">
+                <display-name xml:lang="x-default">Accessoire</display-name>
+                <display-name xml:lang="fr-FR">Accessoire</display-name>
+                <display-name xml:lang="it-IT">Accessori</display-name>
+                <display-name xml:lang="nl-NL">Accessoire</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+            <blocked-refinement-definition type="price"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="twist-secret">
+        <display-name xml:lang="x-default">Twist Secret</display-name>
+        <display-name xml:lang="fr-FR">Twist Secret</display-name>
+        <display-name xml:lang="it-IT">Twist Secret</display-name>
+        <display-name xml:lang="nl-NL">Twist Secret</display-name>
+        <online-flag>false</online-flag>
+        <parent>haarverzorging</parent>
+        <position>19.0</position>
+        <image>categories/TWISTheader.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Twist Secret  : pour des torsades parfaites - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Twist Secret: per trecce, torchons ed acconciature sempre nuove - BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Twist Secret: snel en gemakkelijk twists in je haar</page-title>
+            <page-description xml:lang="fr-FR">Découvrez le Twist Secret : l'outil de coiffure indispensable pour réaliser des torsades et des coiffures à l’infini en 1 twist !</page-description>
+            <page-description xml:lang="it-IT">Scoprite Twist Secret: lo strumento indispensabile per realizzare trecce, chignon ed infinite acconciature in un semplice twist!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek nu de Twist Secret: laat je fantasie de vrije loop en experimenteer met nieuwe kapsels en creaties.</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/coiffure/twist-secret/</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/TWIST_header_800X800.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="accessoires-kapsels">
+        <display-name xml:lang="x-default">Accessoires coiffure</display-name>
+        <display-name xml:lang="fr-FR">Accessoires coiffure</display-name>
+        <display-name xml:lang="it-IT">Accessori acconciatura</display-name>
+        <display-name xml:lang="nl-NL">Haaraccessoires</display-name>
+        <description xml:lang="x-default">lorem ipsum blablabla</description>
+        <description xml:lang="fr-FR">lorem ipsum blablabla</description>
+        <online-flag>true</online-flag>
+        <parent>vrouw</parent>
+        <position>6.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="brosses-a-cheveux">
+        <display-name xml:lang="x-default">Brosses et peignes</display-name>
+        <display-name xml:lang="fr-FR">Brosses et peignes</display-name>
+        <display-name xml:lang="it-IT">Spazzole e pettini</display-name>
+        <display-name xml:lang="nl-NL">Borstels en kammen</display-name>
+        <online-flag>true</online-flag>
+        <parent>accessoires-kapsels</parent>
+        <position>1.0</position>
+        <image>categories/brosses_peigne.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Brosse et peigne : découvrez notre gamme - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Spazzola e pettini: scoprite la nostra gamma-BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Borstels en kammen: ontdek het BaByliss assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos brosses à cheveux et peignes : brosse poil de sanglier, brosse brushing, peigne cheveux - Coiffage soin pour lisser, démêler, renforcer</page-description>
+            <page-description xml:lang="it-IT">Scoprite le nostre spazzola e pettini : spazzola di setole di cinghiale, spazzola per la piega, pettine per capelli- Cura per acconciatura lisciare, districare e rinforzare</page-description>
+            <page-description xml:lang="nl-NL">Ontdek onze haarborstels en kammen - Met zorg je haar ontwarren, stylen en versterken.</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/accessoire-coiffure/brosses-a-cheveux/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/haarborstels</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="attributesProductComparable">FiltrePicotsPoils;FiltreTypeDeCheveux</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Een borstel voor elk haartype: voor  fijn haar, dik haar, steijl haar of krullen. Met een BaByliss haarborstel ontklit je je haar snel, zonder het te beschadigen. Kies de beste haarborstel voor jou. Heb je fijn haar? Dan is een houten borstel met everzwijnhaar, die je haar zachtjes kamt, ideaal. Heb je Ddik(ker) haar?  Probeer dan een van de Diamond Ceramic borstels, die dankzij de nylon borstelpinnen met een keramische coating ook dik(ker) haar moeiteloos ontwarren.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreBesoins" system="false">
+                <display-name xml:lang="fr-FR">Besoins</display-name>
+                <display-name xml:lang="it-IT">Bisogni</display-name>
+                <display-name xml:lang="nl-NL">Eigenschappen</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>5</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreTypeDeCheveux" system="false">
+                <display-name xml:lang="fr-FR">Type de cheveux</display-name>
+                <display-name xml:lang="it-IT">Tipo di capelli</display-name>
+                <display-name xml:lang="nl-NL">Haartype</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>5</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltrePicotsPoils" system="false">
+                <display-name xml:lang="fr-FR">Picots/Poils</display-name>
+                <display-name xml:lang="it-IT">Setole</display-name>
+                <display-name xml:lang="nl-NL">Borstelpinnen</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>5</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreOptions" system="false">
+                <display-name xml:lang="fr-FR">Option</display-name>
+                <display-name xml:lang="it-IT">Opzione</display-name>
+                <display-name xml:lang="nl-NL">Opties</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>5</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+            <blocked-refinement-definition type="price"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="haaraccessoires">
+        <display-name xml:lang="x-default">Accessoires pour cheveux</display-name>
+        <display-name xml:lang="fr-FR">Accessoires pour cheveux</display-name>
+        <display-name xml:lang="it-IT">Accessori per capelli</display-name>
+        <display-name xml:lang="nl-NL">Haaraccessoires</display-name>
+        <online-flag>true</online-flag>
+        <parent>accessoires-kapsels</parent>
+        <position>2.0</position>
+        <image>categories/brosses_peigne.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Accessoires cheveux : découvrez notre gamme - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Accessori capelli: scoprite la nostra gamma- BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Haaraccessoires: ontdek het BaByliss assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez la collection accessoires pour cheveux : headband, barette, serre tête, bijoux de tête - Sublimez votre coiffure grâce à BaByliss !</page-description>
+            <page-description xml:lang="it-IT">Scoprite la gamma accessori per capelli: headband, fermaglio, cerchietto, gioielli per capelli- Sublimate la vostra acconciatura grazie a BaByliss!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek onze haaraccessoires - Maak je kapsel af met BaByliss!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/accessoire-coiffure/accessoires-cheveux/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/haaraccessoires</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Geef je kapsel de finishing touch met onze accessoires voor je haar.&lt;br /&gt;&#13;
+Een avondje uit, naar je werk of naar de sportschool. Voor iedere activiteit&lt;br /&gt;&#13;
+hebben wij de passende accessoire.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreCollections" system="false">
+                <display-name xml:lang="x-default">Collection</display-name>
+                <display-name xml:lang="fr-FR">Collection</display-name>
+                <display-name xml:lang="it-IT">Gamma</display-name>
+                <display-name xml:lang="nl-NL">Collectie</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>20</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+            <blocked-refinement-definition type="price"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="ontharing">
+        <display-name xml:lang="x-default">Epilation</display-name>
+        <display-name xml:lang="fr-FR">Epilation</display-name>
+        <display-name xml:lang="it-IT">Epilazione</display-name>
+        <display-name xml:lang="nl-NL">Ontharing</display-name>
+        <online-flag>true</online-flag>
+        <parent>vrouw</parent>
+        <position>7.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="attributesProductComparable">hairRemovalTechnique;perenity;quicknessOfUse;comfortExperience</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">images/epilateurs.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="epilatoren">
+        <display-name xml:lang="x-default">Epilateurs et rasoirs électriques</display-name>
+        <display-name xml:lang="fr-FR">Épilateurs et rasoirs électriques</display-name>
+        <display-name xml:lang="it-IT">Epilatori e rasoi elettrici</display-name>
+        <display-name xml:lang="nl-NL">Epilatoren en ladyshaves</display-name>
+        <description xml:lang="fr-FR">Une épilation au poil et sans douleur</description>
+        <description xml:lang="it-IT">Epilazione delicata e precisa</description>
+        <description xml:lang="nl-NL">Gemakkelijk en pijnloos ontharen</description>
+        <online-flag>true</online-flag>
+        <parent>ontharing</parent>
+        <position>1.0</position>
+        <image>categories/epilateurs.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Epilateur éléctrique : découvrez notre gamme - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Epilatori elettrici: scoprite la nostra gamma - BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Epilatoren en ladyshaves: ontdek het BaByliss assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos épilateurs électriques : épilation corps, épilation maillot, épilation sans douleur pour des jambes lisses et douces plus vite et plus longtemps !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri epilatori elettrici: per la rimozione dei peli del corpo e delle aree sensibili come inguine, ascelle per una pelle morbida più velocemente e più a lungo!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek onze epilatoren en ladyshaves: lichaamsontharing, beenontharing, pijnloze ontharing voor gladde en zachte benen - snel en langdurig resultaat!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/epilation/epilateur-electrique/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/ladyshaves</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="attributesProductComparable">EpilationTechnical;Sustainability;SpeedOfUse;ComfortFeltDuringSession;RecommendedRetailPrice</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Zeg maar dag tegen ongewenste haartjes! Met een BaByliss ladyshave of&lt;br /&gt;&#13;
+epilator verwijder&amp;nbsp;je zelfs de kortste haartjes: van je oksels tot je enkels.&lt;br /&gt;&#13;
+Effectief ontharen met langer resultaat.&amp;nbsp;Wist je&amp;nbsp;bijvoorbeeld dat je met&lt;br /&gt;&#13;
+de BaByliss epilator tot wel 4 weken geniet van een zijdezachte huid?&amp;nbsp;Ideaal!</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">false</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/epilateurs.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreBesoins" system="false">
+                <display-name xml:lang="x-default">Besoin</display-name>
+                <display-name xml:lang="fr-FR">Besoin</display-name>
+                <display-name xml:lang="it-IT">Bisogno</display-name>
+                <display-name xml:lang="nl-NL">Eigenschappen</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreSystemes" system="false">
+                <display-name xml:lang="x-default">Système</display-name>
+                <display-name xml:lang="fr-FR">Système</display-name>
+                <display-name xml:lang="it-IT">Sistema</display-name>
+                <display-name xml:lang="nl-NL">Type kop</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreOptions" system="false">
+                <display-name xml:lang="x-default">Options</display-name>
+                <display-name xml:lang="fr-FR">Options</display-name>
+                <display-name xml:lang="it-IT">Opzioni</display-name>
+                <display-name xml:lang="nl-NL">Opties</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreAccessoire" system="false">
+                <display-name xml:lang="x-default">Accessoires</display-name>
+                <display-name xml:lang="fr-FR">Accessoires</display-name>
+                <display-name xml:lang="it-IT">Accessori</display-name>
+                <display-name xml:lang="nl-NL">Accessoires</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="ipl-homelight">
+        <display-name xml:lang="x-default">Epilation à lumière pulsée</display-name>
+        <display-name xml:lang="fr-FR">Epilation à lumière pulsée</display-name>
+        <display-name xml:lang="it-IT">Epilazione a luce pulsata</display-name>
+        <display-name xml:lang="nl-NL">IPL Homelight</display-name>
+        <online-flag>true</online-flag>
+        <parent>ontharing</parent>
+        <position>2.0</position>
+        <image>images/IPL_header.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Epilateur à lumière pulsée : toute la gamme - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Epilatori a luce pulsata:  la gamma- BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">IPL Homelight: ontdek het BaByliss assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos épilateurs lumière pulsée : épilation corps et zones sensible, sans fil, skin sensor pour une épilation 0 douleur, durable et ultra-rapide !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri epilatori a luce pulsata: epilazione di corpo e zone sensibili, per una rimozione dei peli sicura, indolore e duratura!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek IPL Homelight: een vorm van lichtontharing, met skin sensor voor automatisch advies op basis van de huidskleur, pijnloos, duurzaam en super snel thuis aan de slag!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/epilation/epilateur-lumiere-pulsse/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/ipl-apparaten</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Vergeet ontharingscrème, je ladyshave, epilator, bikini trimmer &lt;/br&gt;of scheermes. Met BaByliss IPL Homelight geef jij jezelf gemakkelijk, snel en &lt;/br&gt;pijnloos een IPL behandeling. Zo wordt permanent ontharen voor iedereen &lt;/br&gt;toegankelijk! Nooit meer je bikinilijn scheren, nooit meer stoppels of irritatie, &lt;/br&gt;maar een langdurig gladde en zachte huid dankzij laserontharing.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFormat" system="false">
+                <display-name xml:lang="x-default">Format</display-name>
+                <display-name xml:lang="fr-FR">Format</display-name>
+                <display-name xml:lang="it-IT">Formato</display-name>
+                <display-name xml:lang="nl-NL">Formaat</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreNombreDeFlash" system="false">
+                <display-name xml:lang="x-default">Nombre de Flash</display-name>
+                <display-name xml:lang="fr-FR">Nombre de Flash</display-name>
+                <display-name xml:lang="it-IT">Numero di Flash</display-name>
+                <display-name xml:lang="nl-NL">Aantal flitsen</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFonctions" system="false">
+                <display-name xml:lang="x-default">Fonction</display-name>
+                <display-name xml:lang="fr-FR">Fonction</display-name>
+                <display-name xml:lang="it-IT">Funzioni</display-name>
+                <display-name xml:lang="nl-NL">Functies</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreOptions" system="false">
+                <display-name xml:lang="x-default">Options</display-name>
+                <display-name xml:lang="fr-FR">Options</display-name>
+                <display-name xml:lang="it-IT">Opzioni</display-name>
+                <display-name xml:lang="nl-NL">Opties</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="verzorging">
+        <display-name xml:lang="x-default">Beauté</display-name>
+        <display-name xml:lang="fr-FR">Beauté</display-name>
+        <display-name xml:lang="it-IT">Bellezza</display-name>
+        <display-name xml:lang="nl-NL">Verzorging</display-name>
+        <description xml:lang="fr-FR">Tous les outils pour votre beauté</description>
+        <description xml:lang="it-IT">Tutti gli strumenti per la vostra bellezza</description>
+        <description xml:lang="nl-NL">Alle producten voor jouw persoonlijke verzorging</description>
+        <online-flag>true</online-flag>
+        <parent>vrouw</parent>
+        <position>8.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="displayAliasName" xml:lang="fr-FR">Accessoires beauté et Trousses de toilette femmes</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">false</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/beaute.jpg</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="make-up accessoires">
+        <display-name xml:lang="x-default">Accessoires maquillage</display-name>
+        <display-name xml:lang="fr-FR">Gamme maquillage</display-name>
+        <display-name xml:lang="it-IT">Gamma Make up</display-name>
+        <display-name xml:lang="nl-NL">Make-up accessoires</display-name>
+        <online-flag>true</online-flag>
+        <parent>verzorging</parent>
+        <position>1.0</position>
+        <template/>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Accessoire maquillage : toute la gamme - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Accessorio trucco: tutta la gamma- BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Make-up accessoires: ontdek het BaByliss assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez notre gamme accessoires maquillage : kit pinceau maquillage, pinceau kabuki, pinceau poudre - Maquillez-vous comme une pro grâce à BaByliss !</page-description>
+            <page-description xml:lang="it-IT">Scoprite la nostra gamma accessori trucco: kit pennello trucco, pennello kabuki, pennello cipria- Truccatevi come una professionista grazie a BaByliss!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek onze make-up accessoires: make-up penseel, poederdons - Maak je op als een pro dankzij BaByliss!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/beaute/accessoires-maquillage/</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Wil jij je make-up altijd flawless aanbrengen? Van je concealer en foundation &lt;/br&gt;tot je oogschaduw en blush? (Wie niet?) Kies dan voor de make-up&lt;/br&gt; accessoires van BaByliss. Met onze make-up kwasten en make-up&lt;/br&gt; spons kun je make-up opbrengen als een professionele visagist. &lt;/br&gt;Van natuurlijke make-up tot een party look met donkere oog make-up look en een rode lipstick.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="manicure-en-pedicure">
+        <display-name xml:lang="x-default">Manucure et pédicure</display-name>
+        <display-name xml:lang="fr-FR">Manucure et pédicure</display-name>
+        <display-name xml:lang="it-IT">Manicure e pedicure</display-name>
+        <display-name xml:lang="nl-NL">Manicure en pedicure</display-name>
+        <online-flag>true</online-flag>
+        <parent>verzorging</parent>
+        <position>2.0</position>
+        <image>categories/beaute.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Manucure - Pédicure : découvrez notre gamme - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Manicure - Pedicure : scoprite la nostra gamma- BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Manicure en pedicure: ontdek het BaByliss assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos kits Manucure - Pédicure : coupe ongles, rape pied électrique, coupe cuticule, limes à ongles - L'essentiel pour des mains et des pieds doux !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri kit Manicure- Pedicure : tagliaunghie, rullo esfoliante e levigante per i piedi, taglia cuticola, lime unghie - L'essenziale per mani e piedi curati e morbidi!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek ons manicure en pedicure assortiment: nagelvijlen, nagelknippers, voetvijlen - Alles wat je nodig hebt voor mooie handen en zachte voeten!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/beaute/manucure-pedicure/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/manicure</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">De mooiste handen en voeten creëer je zelf met de pedicure en manicure &lt;/br&gt;producten van BaByliss. Altijd met een verzorgd, gehydrateerd en zijdezacht &lt;/br&gt;resultaat. Het manicure- en pedicure assortiment van BaByliss is groot: van nagelvijlen&lt;/br&gt; en nagelknippers tot elektrische tools voor een professionele pedicure behandeling &lt;/br&gt;of manicure behandeling. Wil je een uitgebreide, alles-in-één nagelverzorgingsset? &lt;/br&gt;Kies dan voor onze complete pedicure- en manicureset.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFonctions" system="false">
+                <display-name xml:lang="x-default">Fonctions</display-name>
+                <display-name xml:lang="fr-FR">Fonctions</display-name>
+                <display-name xml:lang="it-IT">Funzioni</display-name>
+                <display-name xml:lang="nl-NL">Functies</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="spiegels">
+        <display-name xml:lang="x-default">Miroirs</display-name>
+        <display-name xml:lang="fr-FR">Miroirs</display-name>
+        <display-name xml:lang="it-IT">Specchi</display-name>
+        <display-name xml:lang="nl-NL">Spiegels</display-name>
+        <online-flag>true</online-flag>
+        <parent>verzorging</parent>
+        <position>3.0</position>
+        <image>categories/beaute.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Miroir : découvrez notre gamme - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Specchi: scoprite la nostra gamma - BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Spiegels: ontdek het BaByliss assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos miroirs lumineux : miroir rond, miroir grossissant, miroir salle de bain -  Idéal pour le soin de la peau et le maquillage !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri specchi luminosi: specchio rotondo, specchio con lente di ingrandimento, specchio da bagno- Ideale per la cura della pelle e per il trucco!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek onze spiegels met verlichting: ronde, vergrotende of spiegels voor in de badkamer.</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/beaute/miroir/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/make-up-spiegel</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="attributesProductComparable">FaceNumber;Magnification;Lighting;Diameter;RecommendedRetailPrice</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Spiegel, spiegel aan de wand,&lt;br /&gt;&#13;
+wie heeft de handigste make-up spiegels van het land? BaByliss! &lt;br /&gt;&#13;
+Vergemakkelijk jouw beautyritueel met een make- up spiegel&amp;nbsp;met verlichting en&lt;br /&gt;&#13;
+vergrotende werking. Met een vergrotende visagie spiegel met licht zie je elk detail:&lt;br /&gt;&#13;
+ideaal voor het aanbrengen van make-up, het epileren van je wenkbrauwen, &lt;br /&gt;&#13;
+het verzorgen van je huid &amp;oacute;f als scheerspiegel.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFonctions" system="false">
+                <display-name xml:lang="x-default">Fonctions</display-name>
+                <display-name xml:lang="fr-FR">Fonctions</display-name>
+                <display-name xml:lang="it-IT">Funzioni</display-name>
+                <display-name xml:lang="nl-NL">Functies</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreOptions" system="false">
+                <display-name xml:lang="x-default">Options</display-name>
+                <display-name xml:lang="fr-FR">Options</display-name>
+                <display-name xml:lang="it-IT">Opzioni</display-name>
+                <display-name xml:lang="nl-NL">Opties</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="toilettassen">
+        <display-name xml:lang="x-default">Trousses de toilette</display-name>
+        <display-name xml:lang="fr-FR">Trousses de toilette</display-name>
+        <display-name xml:lang="it-IT">Beauty case </display-name>
+        <display-name xml:lang="nl-NL">Toilettassen</display-name>
+        <online-flag>true</online-flag>
+        <parent>verzorging</parent>
+        <position>4.0</position>
+        <image>categories/beaute.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Trousse de toilette : découvrez notre gamme - BaByliss Paris</page-title>
+            <page-title xml:lang="it-IT">Beauty case:  scoprite la nostra gamma- BaByliss Paris</page-title>
+            <page-title xml:lang="nl-NL">Toilettassen: ontdek het BaByliss assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez la collection trousse de toilette : trousse de toilette femme, trousse de toilette voyage, grande trousse de toillette - Pratiques et tendances !</page-description>
+            <page-description xml:lang="it-IT">Scoprite la gamma beauty case: beauty case donna, beauty case da viaggio, grande beauty case- Pratici e di tendenza!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek de collectie toilettassen.</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/femme/beaute/trousse-de-toilette/</page-url>
+            <page-url xml:lang="nl-NL">vrouw/toilettassen</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Een mooie, functionele toilettas is een must-have voor elke vrouw die vaak onderweg is.&lt;/br&gt; Of je nou kiest voor een grote beautycase als reis toilettas of een klein make-up&lt;/br tasje voor in je handtas: BaByliss heeft een make-up&lt;/br&gt; organizer voor elke vrouw en elke gelegenheid. Kwasten, beauty accessoires &lt;/br&gt;en make-up opbergen kan in onze toilettassen makkelijk, hygiënisch én stijlvol: thuis en onderweg.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreCollections" system="false">
+                <display-name xml:lang="x-default">Collections</display-name>
+                <display-name xml:lang="fr-FR">Collections</display-name>
+                <display-name xml:lang="it-IT">Collezioni</display-name>
+                <display-name xml:lang="nl-NL">Collectie</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="actie-vrouwen">
+        <display-name xml:lang="x-default">Actie Producten</display-name>
+        <display-name xml:lang="nl-NL">Actie Producten</display-name>
+        <online-flag>false</online-flag>
+        <parent>vrouw</parent>
+        <position>10.0</position>
+        <image>images/header-actie.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="nl-NL">Actie producten | Ontdek het BaByliss assortiment</page-title>
+            <page-url xml:lang="x-default">vrouw/actie-vrouwen</page-url>
+            <page-url xml:lang="nl-NL">vrouw/actie-vrouwen</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">sdfsdfsdfsdf</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">false</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/actie-blok.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="man">
+        <display-name xml:lang="x-default">Homme</display-name>
+        <display-name xml:lang="fr-FR">L'homme</display-name>
+        <display-name xml:lang="it-IT">L'uomo</display-name>
+        <display-name xml:lang="nl-NL">Man</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>12.0</position>
+        <template>rendering/cms/cms-univers-homme</template>
+        <page-attributes>
+            <page-title xml:lang="x-default">Shop Electronics Including Televisions, Digital Cameras, iPods &amp; More</page-title>
+            <page-title xml:lang="fr-FR">BaByliss For Men : tondeuse professionnelle homme</page-title>
+            <page-title xml:lang="it-IT">BaByliss For Men: tagliacapelli/regolabarba professionale per uomo</page-title>
+            <page-title xml:lang="nl-NL">BaByliss for Men heeft innovatieve trimmers &amp; tondeuses</page-title>
+            <page-description xml:lang="x-default">Shop Electronics including the latest in televisions, digital cameras, camcorders, mp3, ipod, mobil phones, GPS &amp; gaming at Demandware</page-description>
+            <page-description xml:lang="fr-FR">Découvrez tout l'univers BaByliss For Men : solutions professionnelles pour le soin du cheveux, de la barbe et du corps !</page-description>
+            <page-description xml:lang="it-IT">Scoprite il mondo BaByliss For Men: soluzioni professionali per la cura e lo styling di capelli, barba e corpo!</page-description>
+            <page-description xml:lang="nl-NL">BaByliss for Men is dé specialist in tondeuses, baardtrimmers, multigroomers en precisietrimmers. Bekijk hier onze producten</page-description>
+            <page-keywords xml:lang="x-default">televisions, digital cameras, camcorders, mp3, ipod, mobil phones, GPS, gaming</page-keywords>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">true</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">&lt;p&gt;&lt;a class="banner-link js-gtm-push" href="$httpsUrl('Product-Show', 'pid', 'E837E')$" data-gtm-pushtype="Push Product Top"&gt;&#13;
+&lt;img alt="" src="images/Nav-banner-E837E.jpg?$staticlink$" title="Styling Kit X-10" /&gt;&lt;/a&gt; &#13;
+&lt;a class="banner-link js-gtm-push" href="$httpsUrl('Search-Show', 'q', 'pro45intense')$" data-gtm-pushtype="Push Product Bottom"&gt;&#13;
+&lt;img alt="" src="images/Nav-banner-E985E2.jpg?$staticlink$" title="In Control Tondeuse Intense XL" /&gt;&lt;/a&gt;&lt;/p&gt;</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Vertical</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="brand" system="true">
+                <display-name xml:lang="x-default">Brand</display-name>
+                <display-name xml:lang="nl-NL">Merk</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>5</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="attribute" attribute-id="refinementColor" system="false"/>
+            <blocked-refinement-definition type="attribute" attribute-id="size" system="false"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="baard">
+        <display-name xml:lang="x-default">Barbe</display-name>
+        <display-name xml:lang="fr-FR">Barbe</display-name>
+        <display-name xml:lang="it-IT">Barba</display-name>
+        <display-name xml:lang="nl-NL">Baard</display-name>
+        <description xml:lang="x-default">Barbe</description>
+        <online-flag>true</online-flag>
+        <parent>man</parent>
+        <position>1.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="baardtrimmers">
+        <display-name xml:lang="x-default">Tondeuses barbe</display-name>
+        <display-name xml:lang="fr-FR">Tondeuses barbe</display-name>
+        <display-name xml:lang="it-IT">Regolabarba</display-name>
+        <display-name xml:lang="nl-NL">Baardtrimmers</display-name>
+        <description xml:lang="fr-FR">C'est presque le barbier qui vient à vous</description>
+        <description xml:lang="it-IT">Il Barbiere a casa tua</description>
+        <description xml:lang="nl-NL">Voor lange en korte baarden</description>
+        <online-flag>true</online-flag>
+        <parent>baard</parent>
+        <position>1.0</position>
+        <image>categories/tondeuses_barbe.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Tondeuse barbe : découvrez notre gamme - BaByliss For Men</page-title>
+            <page-title xml:lang="it-IT">Regolabarba: scoprite la nostra gamma-BaByliss For Men</page-title>
+            <page-title xml:lang="nl-NL">Baardtrimmers - Ontdek de baardtrimmers van BaByliss For Men</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos tondeuses barbe : tondeuse barbe professionnelle avec fonction rasage sans fil  - Taille et précision facile pour varier le style de barbe !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri regolabarba: con lame brevettate, con testine circolari e digitali, provvisti di testine di rasatura: ad ogni esigenza il suo prodotto: Taglio preciso e versatilità per giocare con il vostro stile di barba!</page-description>
+            <page-description xml:lang="nl-NL">Bekijk hier de baardtrimmers van BaByliss for Men. Professionele trimmers met scheerfunctie. Perfect om eenvoudig en snel je baard te verzorgen</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/homme/barbe/tondeuse-barbe/</page-url>
+            <page-url xml:lang="nl-NL">man/baardtrimmers</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="attributesProductComparable">HeightOfCut;PrecisionAndAdjustment;FreedomOfMove;PowerSupply;QuickChargeFunction;RecommendedRetailPrice</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Je baard laten groeien? Tot een stoppelbaard of een volle baard?&lt;/br&gt; Dat kan met een van de BaByliss For Men baardtrimmers. &lt;/br&gt;Creëer de baard die jij wil en kies voor een apparaat dat het beste&lt;/br&gt; past bij jouw type baardverzorging. Je baard verzorgen&lt;/br&gt; ging nog nooit zo precies, eenvoudig en snel.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/tondeuses_barbe_small.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreHauteurDecoupe" system="false">
+                <display-name xml:lang="x-default">Hauteur de Coupe</display-name>
+                <display-name xml:lang="fr-FR">Hauteur de Coupe</display-name>
+                <display-name xml:lang="it-IT">Altezza di taglio</display-name>
+                <display-name xml:lang="nl-NL">Lengte instellingen</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltrePrecisions" system="false">
+                <display-name xml:lang="x-default">Précisions</display-name>
+                <display-name xml:lang="fr-FR">Précisions</display-name>
+                <display-name xml:lang="it-IT">Precisione</display-name>
+                <display-name xml:lang="nl-NL">Precisie instelling</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreReglageHauteur" system="false">
+                <display-name xml:lang="x-default">Réglage Hauteur</display-name>
+                <display-name xml:lang="fr-FR">Réglage Hauteur</display-name>
+                <display-name xml:lang="it-IT">Regolazione Altezza</display-name>
+                <display-name xml:lang="nl-NL">Bediening hoogte instelling</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFonctions" system="false">
+                <display-name xml:lang="x-default">Fonction</display-name>
+                <display-name xml:lang="fr-FR">Fonction</display-name>
+                <display-name xml:lang="it-IT">Funzioni</display-name>
+                <display-name xml:lang="nl-NL">Functies</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreUtilisations" system="false">
+                <display-name xml:lang="x-default">Utilisation</display-name>
+                <display-name xml:lang="fr-FR">Utilisation</display-name>
+                <display-name xml:lang="it-IT">Utilizzo</display-name>
+                <display-name xml:lang="nl-NL">Gebruik</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreAccessoire" system="false">
+                <display-name xml:lang="x-default">Accessoires</display-name>
+                <display-name xml:lang="fr-FR">Accessoires</display-name>
+                <display-name xml:lang="it-IT">Accessori</display-name>
+                <display-name xml:lang="nl-NL">Accessoires</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+            <blocked-refinement-definition type="price"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="Beard Designer">
+        <display-name xml:lang="x-default">De Beard Designer</display-name>
+        <display-name xml:lang="fr-FR">Le Designer</display-name>
+        <display-name xml:lang="it-IT">Le Designer</display-name>
+        <display-name xml:lang="nl-NL">Beard Designer</display-name>
+        <online-flag>true</online-flag>
+        <parent>baard</parent>
+        <position>2.0</position>
+        <template/>
+        <page-attributes>
+            <page-title xml:lang="nl-NL">Ontdek de revolutionaire Beard Designer van BaByliss For Men</page-title>
+            <page-description xml:lang="nl-NL">Bekijk hier de Beard Designer van BaByliss for Men. Trimt haartjes in alle richtingen en heeft 50 lengte-instellingen. Snel en eenvoudig je baard stylen!</page-description>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">false</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="baardverzorging">
+        <display-name xml:lang="x-default">Soin de la barbe</display-name>
+        <display-name xml:lang="fr-FR">Soin de la barbe</display-name>
+        <display-name xml:lang="it-IT">Cura della barba</display-name>
+        <display-name xml:lang="nl-NL">Baardverzorging</display-name>
+        <description xml:lang="fr-FR">Obtenez un poil soyeux, brillant et résistant en un tour de main !</description>
+        <description xml:lang="it-IT">Ottenete un pelo morbido, lucido e resistente in un secondo!</description>
+        <description xml:lang="nl-NL">Gun jezelf een verzorgde en stralende baard!</description>
+        <online-flag>true</online-flag>
+        <parent>baard</parent>
+        <position>3.0</position>
+        <image>categories/soin_barbe.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Soin de la barbe : découvrez notre gamme - BaByliss For Men</page-title>
+            <page-title xml:lang="it-IT">Cura della barba: scoprite la nostra gamma- BaByliss For Men</page-title>
+            <page-title xml:lang="nl-NL">Baardverzorging - De baardverzorgingsproducten van BaByliss For Men</page-title>
+            <page-description xml:lang="fr-FR">Découvrez notre gamme soins barbe : brosse barbe, peigne barbe - Une gamme soin pro pour entretenir et adoucir sa barbe !</page-description>
+            <page-description xml:lang="it-IT">Scoprite la nostra gamma cura della barba: spazzola da barba, pettine per barba- Una gamma cura professionale per curare e ammorbidire la barba!</page-description>
+            <page-description xml:lang="nl-NL">Bekijk hier de baardverzorgingsproducten van BaByliss for Men. Van baardborstels tot kammen. Creëer een look alsof je net van de barbier komt</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/homme/barbe/entretien-barbe/</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Ontdek ons assortiment van baardverzorgingsproducten. &lt;br/&gt; Gun jezelf een verzorgde en stralende baard; alsof je net bij de barbier vandaan komt!</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/soin_barbe.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreBesoins" system="false">
+                <display-name xml:lang="x-default">Besoin</display-name>
+                <display-name xml:lang="fr-FR">Besoin</display-name>
+                <display-name xml:lang="it-IT">Bisogno</display-name>
+                <display-name xml:lang="nl-NL">Eigenschappen</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+            <blocked-refinement-definition type="attribute" attribute-id="brand" system="true"/>
+            <blocked-refinement-definition type="price"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="Multigrooming sets">
+        <display-name xml:lang="x-default">Kits multi usages</display-name>
+        <display-name xml:lang="fr-FR">Tondeuses multi-usages</display-name>
+        <display-name xml:lang="it-IT">Kit multiuso</display-name>
+        <display-name xml:lang="nl-NL">Multigrooming sets</display-name>
+        <description xml:lang="fr-FR">Un résultat adapté à chaque zone du corps</description>
+        <description xml:lang="it-IT">Strumenti perfetti per la cura di tutto il corpo</description>
+        <description xml:lang="nl-NL">Supergladde scheerresultaten voor haar, baard en lichaam!</description>
+        <online-flag>false</online-flag>
+        <parent>baard</parent>
+        <position>4.0</position>
+        <image>categories/kits_multi-usages.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Tondeuse multi-usage : découvrez notre gamme - BaByliss For Men</page-title>
+            <page-title xml:lang="it-IT">Kit multiuso : scoprite la nostra gamma - BaByliss For Men</page-title>
+            <page-title xml:lang="nl-NL">Multi grooming sets: ontdek het BaByliss For Men assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos tondeuses multi-fonctions : tondeuse cheveux et barbe, tondeuse corps homme, tondeuse multifonction pro - Tout le soin de l'homme en 1 appareil !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri kit grooming multifunzioni: tagliacapelli, regolabarba, accessori per il corpo - tutto il necessario la cura del vostro aspetto in un unico apparecchio!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek onze multi grooming sets: geschikt voor haar, baard en lichaam. Een uitkomst voor de iedere man!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/homme/barbe/tondeuse-multifonction/</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Een bodygroom die alle lichaamszones verzorgt. Van je borsthaar en rug scheren tot je neus-,&lt;/br&gt; oorhaar en bakkebaarden trimmen: deze multigroom set kan het allemaal. &lt;/br&gt;Alle BaByliss for Men Multi Grooming Sets blinken uit in hun ultrascherpe messen, design &lt;/br&gt;en hoogwaardige techniek. Ook leuk om te geven als cadeauset aan de man die nog op zoek was&lt;/br&gt; naar een complete scheerset.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/kit-multi-usages.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreUsages" system="false">
+                <display-name xml:lang="x-default">Usage</display-name>
+                <display-name xml:lang="fr-FR">Usage</display-name>
+                <display-name xml:lang="it-IT">Utilizzo</display-name>
+                <display-name xml:lang="nl-NL">Gebruik</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreOptions" system="false">
+                <display-name xml:lang="x-default">Options</display-name>
+                <display-name xml:lang="fr-FR">Options</display-name>
+                <display-name xml:lang="it-IT">Opzioni</display-name>
+                <display-name xml:lang="nl-NL">Opties</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFonctions" system="false">
+                <display-name xml:lang="x-default">Fonctions</display-name>
+                <display-name xml:lang="fr-FR">Fonctions</display-name>
+                <display-name xml:lang="it-IT">Funzioni</display-name>
+                <display-name xml:lang="nl-NL">Functies</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreAccessoire" system="false">
+                <display-name xml:lang="x-default">Accessoires</display-name>
+                <display-name xml:lang="fr-FR">Accessoires</display-name>
+                <display-name xml:lang="it-IT">Accessori</display-name>
+                <display-name xml:lang="nl-NL">Accessoires</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+            <blocked-refinement-definition type="price"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="actie-mannen">
+        <display-name xml:lang="nl-NL">Actie Producten</display-name>
+        <online-flag>false</online-flag>
+        <parent>baard</parent>
+        <image>images/header-actie-man.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="nl-NL">Actie producten voor mannen | Ontdek het BaByliss assortiment</page-title>
+            <page-url xml:lang="nl-NL">man/actie-mannen</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="catBannerID">header-actie-man.jpg</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Vertical</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">false</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="haar">
+        <display-name xml:lang="x-default">Cheveux</display-name>
+        <display-name xml:lang="fr-FR">Cheveux</display-name>
+        <display-name xml:lang="it-IT">Capelli</display-name>
+        <display-name xml:lang="nl-NL">Haar</display-name>
+        <online-flag>true</online-flag>
+        <parent>man</parent>
+        <position>2.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="Tondeuses">
+        <display-name xml:lang="x-default">Tondeuses cheveux</display-name>
+        <display-name xml:lang="fr-FR">Tondeuses cheveux</display-name>
+        <display-name xml:lang="it-IT">Tagliacapelli</display-name>
+        <display-name xml:lang="nl-NL">Tondeuses</display-name>
+        <description xml:lang="fr-FR">Une coupe de pro sans bouger de chez vous</description>
+        <description xml:lang="it-IT">Prestazioni professionali e taglio accurato per chiome in regola</description>
+        <description xml:lang="nl-NL">Een professioneel kapsel, gewoon bij jou thuis</description>
+        <online-flag>true</online-flag>
+        <parent>haar</parent>
+        <image>categories/tondeuses_cheveux.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Tondeuse cheveux : découvrez notre gamme - BaByliss For Men</page-title>
+            <page-title xml:lang="it-IT">Tagliacapelli: scoprite la nostra gamma - BaByliss For Men</page-title>
+            <page-title xml:lang="nl-NL">Tondeuses - Je kapsel bijwerken met de tondeuses BaByliss For Men</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos tondeuses cheveux : tondeuse cheveux pro, tondeuse cheveux précision à plusieurs sabots - Ergonomie et précision pour une coupe nette !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri tagliacapelli: linea W-tech o linea XL professionale con infinite posisbilità di taglio - Ergonomia e precisione per capelli perfetti!</page-description>
+            <page-description xml:lang="nl-NL">Bekijk hier de tondeuses van BaByliss for Men. Professionele tondeuses voor thuis met uitzonderlijke scheerkwaliteit. Ontdek ons brede assortiment!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/homme/cheveux/tondeuse-cheveux/</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="attributesProductComparable">HairCutLength;PrecisionAndAdjustment;DifferentsFeatures;Accessories;PowerSupply;RecommendedRetailPrice</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Je kapsel bijwerken of creëren, dat doe je in no time met een tondeuse van &lt;/br&gt;BaByliss for Men. Kies voor een professionele tondeuse voor thuis en profiteer &lt;/br&gt;altijd van uitzonderlijke scheerkwaliteit. BaByliss For Men heeft een breed &lt;/br&gt;assortiment van verschillende tondeuses; van een draadloze tondeuse tot een&lt;/br&gt; tondeuses met extra brede messen.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/tondeuses_cheveux_small.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreHauteurDecoupe" system="false">
+                <display-name xml:lang="x-default">Hauteur de Coupe</display-name>
+                <display-name xml:lang="fr-FR">Hauteur de Coupe</display-name>
+                <display-name xml:lang="it-IT">Altezza di taglio</display-name>
+                <display-name xml:lang="nl-NL">Lengte instellingen</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltrePrecisions" system="false">
+                <display-name xml:lang="x-default">Précisions</display-name>
+                <display-name xml:lang="fr-FR">Précisions</display-name>
+                <display-name xml:lang="it-IT">Precisione</display-name>
+                <display-name xml:lang="nl-NL">Precisie instelling</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreMoteurs" system="false">
+                <display-name xml:lang="x-default">Moteur</display-name>
+                <display-name xml:lang="fr-FR">Moteur</display-name>
+                <display-name xml:lang="it-IT">Motore</display-name>
+                <display-name xml:lang="nl-NL">Motor</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFonctions" system="false">
+                <display-name xml:lang="x-default">Fonction</display-name>
+                <display-name xml:lang="fr-FR">Fonction</display-name>
+                <display-name xml:lang="it-IT">Funzioni</display-name>
+                <display-name xml:lang="nl-NL">Functies</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreUtilisations" system="false">
+                <display-name xml:lang="x-default">Utilisation</display-name>
+                <display-name xml:lang="fr-FR">Utilisation</display-name>
+                <display-name xml:lang="it-IT">Utilizzo</display-name>
+                <display-name xml:lang="nl-NL">Gebruik</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreAccessoire" system="false">
+                <display-name xml:lang="x-default">Accessoires</display-name>
+                <display-name xml:lang="fr-FR">Accessoires</display-name>
+                <display-name xml:lang="it-IT">Accessori</display-name>
+                <display-name xml:lang="nl-NL">Accessoires</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="trimmer-multifunctionele-haar">
+        <display-name xml:lang="x-default">Kits multi usages</display-name>
+        <display-name xml:lang="fr-FR">Tondeuses multi-usages</display-name>
+        <display-name xml:lang="it-IT">Kit multiuso</display-name>
+        <display-name xml:lang="nl-NL">Multigrooming sets</display-name>
+        <online-flag>false</online-flag>
+        <parent>haar</parent>
+        <image>categories/kits_multi-usages.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Tondeuse multi-usage : découvrez notre gamme - BaByliss For Men</page-title>
+            <page-title xml:lang="it-IT">Kit multiuso : scoprite la nostra gamma - BaByliss For Men</page-title>
+            <page-title xml:lang="nl-NL">Multi grooming sets: ontdek het BaByliss For Men assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos tondeuses multi-fonctions : tondeuse cheveux et barbe, tondeuse corps homme, tondeuse multifonction pro - Tout le soin de l'homme en 1 appareil !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri kit grooming multifunzioni: tagliacapelli, regolabarba, accessori per il corpo - tutto il necessario la cura del vostro aspetto in un unico apparecchio!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek onze multi grooming sets: geschikt voor haar, baard en lichaam. Een uitkomst voor de iedere man!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/homme/cheveux/tondeuse-multifonction/</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Een bodygroom die alle lichaamszones verzorgt. Van je borsthaar en rug scheren tot je neus-,&lt;/br&gt; oorhaar en bakkebaarden trimmen: deze multigroom set kan het allemaal. &lt;/br&gt;Alle BaByliss for Men Multi Grooming Sets blinken uit in hun ultrascherpe messen, design &lt;/br&gt;en hoogwaardige techniek. Ook leuk om te geven als cadeauset aan de man die nog op zoek was&lt;/br&gt; naar een complete scheerset.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/tondeuses_cheveux_small.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreUsages" system="false">
+                <display-name xml:lang="x-default">Usage</display-name>
+                <display-name xml:lang="fr-FR">Usage</display-name>
+                <display-name xml:lang="it-IT">Utilizzo</display-name>
+                <display-name xml:lang="nl-NL">Gebruik</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreOptions" system="false">
+                <display-name xml:lang="x-default">Options</display-name>
+                <display-name xml:lang="fr-FR">Options</display-name>
+                <display-name xml:lang="it-IT">Opzioni</display-name>
+                <display-name xml:lang="nl-NL">Opties</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFonctions" system="false">
+                <display-name xml:lang="x-default">Fonction</display-name>
+                <display-name xml:lang="fr-FR">Fonction</display-name>
+                <display-name xml:lang="it-IT">Funzioni</display-name>
+                <display-name xml:lang="nl-NL">Functies</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreAccessoire" system="false">
+                <display-name xml:lang="x-default">Accessoire</display-name>
+                <display-name xml:lang="fr-FR">Accessoire</display-name>
+                <display-name xml:lang="it-IT">Accessori</display-name>
+                <display-name xml:lang="nl-NL">Accessoires</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="lichaam">
+        <display-name xml:lang="x-default">Corps</display-name>
+        <display-name xml:lang="fr-FR">Corps</display-name>
+        <display-name xml:lang="it-IT">Corpo</display-name>
+        <display-name xml:lang="nl-NL">Lichaam</display-name>
+        <online-flag>true</online-flag>
+        <parent>man</parent>
+        <position>3.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="multi-grooming-set-body">
+        <display-name xml:lang="x-default">Kits multi usages</display-name>
+        <display-name xml:lang="fr-FR">Tondeuses multi-usages</display-name>
+        <display-name xml:lang="it-IT">Kit multiuso</display-name>
+        <display-name xml:lang="nl-NL">Multigrooming sets</display-name>
+        <description xml:lang="x-default">Supergladde scheerresultaten voor haar, baard en lichaam!</description>
+        <description xml:lang="fr-FR">Un résultat adapté à chaque zone du corps</description>
+        <description xml:lang="it-IT">Strumenti perfetti per la cura di tutto il corpo</description>
+        <description xml:lang="nl-NL">Supergladde scheerresultaten voor haar, baard en lichaam!</description>
+        <online-flag>true</online-flag>
+        <parent>lichaam</parent>
+        <position>3.0</position>
+        <image>categories/kits_multi-usages.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Tondeuse multi-usage : découvrez notre gamme - BaByliss For Men</page-title>
+            <page-title xml:lang="it-IT">Kit multiuso : scoprite la nostra gamma - BaByliss For Men</page-title>
+            <page-title xml:lang="nl-NL">Multi grooming sets: ontdek het BaByliss For Men assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos tondeuses multi-fonctions : tondeuse cheveux et barbe, tondeuse corps homme, tondeuse multifonction pro - Tout le soin de l'homme en 1 appareil !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri kit grooming multifunzioni: tagliacapelli, regolabarba, accessori per il corpo - tutto il necessario la cura del vostro aspetto in un unico apparecchio!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek onze multi grooming sets: geschikt voor haar, baard en lichaam. Een uitkomst voor de iedere man!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/homme/corps/tondeuse-multifcontion/</page-url>
+            <page-url xml:lang="nl-NL">man/lichaam/multigrooming-set</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="altMenu">false</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Een bodygroom die alle lichaamszones verzorgt. Van je borsthaar en rug scheren tot je neus-,&lt;/br&gt; oorhaar en bakkebaarden trimmen: deze multigroom set kan het allemaal. &lt;/br&gt;Alle BaByliss for Men Multi Grooming Sets blinken uit in hun ultrascherpe messen, design &lt;/br&gt;en hoogwaardige techniek. Ook leuk om te geven als cadeauset aan de man die nog op zoek was&lt;/br&gt; naar een complete scheerset.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">true</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">images/kit-multi-usages.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreUsages" system="false">
+                <display-name xml:lang="x-default">Usage</display-name>
+                <display-name xml:lang="fr-FR">Usage</display-name>
+                <display-name xml:lang="it-IT">Utilizzo</display-name>
+                <display-name xml:lang="nl-NL">Gebruik</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreOptions" system="false">
+                <display-name xml:lang="x-default">Options</display-name>
+                <display-name xml:lang="fr-FR">Options</display-name>
+                <display-name xml:lang="it-IT">Opzioni</display-name>
+                <display-name xml:lang="nl-NL">Opties</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreFonctions" system="false">
+                <display-name xml:lang="x-default">Fonction</display-name>
+                <display-name xml:lang="fr-FR">Fonction</display-name>
+                <display-name xml:lang="it-IT">Funzioni</display-name>
+                <display-name xml:lang="nl-NL">Functies</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreAccessoire" system="false">
+                <display-name xml:lang="x-default">Accessoire</display-name>
+                <display-name xml:lang="fr-FR">Accessoire</display-name>
+                <display-name xml:lang="it-IT">Accessori</display-name>
+                <display-name xml:lang="nl-NL">Accessoire</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="neus-oor-trimmer">
+        <display-name xml:lang="x-default">Nez oreille</display-name>
+        <display-name xml:lang="fr-FR">Tondeuses Nez – Oreilles</display-name>
+        <display-name xml:lang="it-IT">Tagliacapelli per Naso/Orecchie</display-name>
+        <display-name xml:lang="nl-NL">Neus- &amp; oortrimmers</display-name>
+        <description xml:lang="fr-FR">Avec elles, rien ne dépasse</description>
+        <description xml:lang="it-IT">Addio fastidiosi peli!</description>
+        <description xml:lang="nl-NL">Nooit meer last van ongewenste haartjes</description>
+        <online-flag>true</online-flag>
+        <parent>lichaam</parent>
+        <position>4.0</position>
+        <image>categories/tondeuses_nez-oreilles.jpg</image>
+        <template>rendering/category/categoryproducthits</template>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Tondeuse nez oreille : découvrez notre gamme - BaByliss For Men</page-title>
+            <page-title xml:lang="it-IT">Regolapeli per naso e orecchie: scoprite la nostra gamma - BaByliss For Men</page-title>
+            <page-title xml:lang="nl-NL">Neus- &amp; oortrimmers: ontdek het BaByliss For Men assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos tondeuses nez oreilles : coupe poils nez, rasoir nez, tondeuse oreille, tondeuse nez - Finis les poils indésirables du nez et des oreilles !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri regolapeli per naso e orecchie: tagliapeli naso, rasoi naso, regolapeli per naso e orecchie. Sbarazzatevi dei peli indesiderati del naso e delle orecchie!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek onze neus- &amp; oortrimmers. Verwijder of trim ongewenste haartjes in je neus, oren en bij je wenkbrauwen!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/homme/corps/tondeuse-nez-oreille/</page-url>
+            <page-url xml:lang="nl-NL">man/neus-oor-trimmer</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="attributesProductComparable">CutSystem;HeadType;Accessories;PowerSupply;RecommendedRetailPrice</custom-attribute>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Reken af met ongewenst haar! Met de neustrimmer, &lt;/br&gt;wenkbrauw trimmer en oortrimmer van BaByliss for Men &lt;/br&gt;onthaar je veilig, pijnloos en snel. Alle neus- en oortrimmers&lt;/br&gt; zijn dankzij de afspoelbare kop eenvoudig te reinigen.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">false</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+            <custom-attribute attribute-id="slotBannerImage">cat-univers/tondeuse-nez-oreilles.jpg</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreOptions" system="false">
+                <display-name xml:lang="x-default">Options</display-name>
+                <display-name xml:lang="fr-FR">Options</display-name>
+                <display-name xml:lang="it-IT">Opzioni</display-name>
+                <display-name xml:lang="nl-NL">Opties</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreAccessoire" system="false">
+                <display-name xml:lang="x-default">Accessoires</display-name>
+                <display-name xml:lang="fr-FR">Accessoires</display-name>
+                <display-name xml:lang="it-IT">Accessori</display-name>
+                <display-name xml:lang="nl-NL">Accessoires</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <blocked-refinement-definition type="category"/>
+        </refinement-definitions>
+    </category>
+
+    <category category-id="ipl-homelight-man">
+        <display-name xml:lang="x-default">Epilation à lumière pulsée</display-name>
+        <display-name xml:lang="fr-FR">Epilation à lumière pulsée</display-name>
+        <display-name xml:lang="it-IT">Epilazione a luce pulsata</display-name>
+        <display-name xml:lang="nl-NL">IPL Homelight</display-name>
+        <online-flag>true</online-flag>
+        <parent>lichaam</parent>
+        <position>5.0</position>
+        <template/>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Epilateur à lumière pulsée Homme - BaByliss For Men</page-title>
+            <page-title xml:lang="it-IT">Epilatore a luce pulsata Uomo - BaByliss For Men</page-title>
+            <page-title xml:lang="nl-NL">IPL Homelight: ontdek het assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez nos épilateurs lumière pulsee : épilation corps homme, épilation semi permanente, skin sensor - Epilation 0 douleurs, durable et ultra-rapide !</page-description>
+            <page-description xml:lang="it-IT">Scoprite i nostri epilatori a luce pulsata per l'uomo: epilazione corpo, epilazione progressiva e semi-permanente,con riconoscimento della pelle tramite  skin sensor - Epilazione duratura, indolore, sicura e ultra veloce!</page-description>
+            <page-description xml:lang="nl-NL">Ontdek IPL Homelight: een vorm van lichtontharing, met skin sensor voor automatisch advies op basis van de huidskleur, pijnloos, duurzaam en super snel!</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/homme/corps/epilateur-lumiere-pulsee/</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Wil jij een haarloos bovenlichaam zonder pijn? Dat is mogelijk met behulp van IPL Homelight. Dankzij deze revolutionaire technologie van lichtontharing verwijder je ongewenste haartjes op een veilige manier en voor langere periode!</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">false</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="toilettassen-man">
+        <display-name xml:lang="x-default">Trousses de toilette</display-name>
+        <display-name xml:lang="fr-FR">Trousses de toilette</display-name>
+        <display-name xml:lang="it-IT">Beauty case </display-name>
+        <display-name xml:lang="nl-NL">Toilettassen</display-name>
+        <online-flag>true</online-flag>
+        <parent>man</parent>
+        <position>5.0</position>
+        <template/>
+        <page-attributes>
+            <page-title xml:lang="fr-FR">Trousse de toilette : toute la collection - BaByliss For Men</page-title>
+            <page-title xml:lang="it-IT">Beauty case: tutta la gamma- BaByliss For Men</page-title>
+            <page-title xml:lang="nl-NL">Toilettassen: ontdek het BaByliss For Men assortiment</page-title>
+            <page-description xml:lang="fr-FR">Découvrez notre collection de trousses de toilette homme : trousse de toilette voyage, trousse de toilette pratique -  L'indispensable de l'homme nomade</page-description>
+            <page-description xml:lang="it-IT">Scoprite la nostra gamma di beauty case per uomo: beauty case da viaggio, beauty case pratico- L'indispensabile dell'uomo nomade</page-description>
+            <page-description xml:lang="nl-NL">Ontdek onze collectie toilettassen voor mannen - De must have voor de reizende man</page-description>
+            <page-url xml:lang="fr-FR">https://www.babyliss.fr/homme/trousse-de-toilette/</page-url>
+        </page-attributes>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuBanner">Een perfecte stijl, zelfs op vakantie of wanneer je op zakenreis bent.&lt;br/&gt;  BaByliss For Men heeft speciaal voor de reizende man een collectie praktische en elegante&lt;br/&gt; toilettassen.</custom-attribute>
+            <custom-attribute attribute-id="inSiteMap">false</custom-attribute>
+            <custom-attribute attribute-id="noProductZoom">false</custom-attribute>
+            <custom-attribute attribute-id="showID">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+        <refinement-definitions>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreStyle" system="false">
+                <display-name xml:lang="x-default">Style</display-name>
+                <display-name xml:lang="fr-FR">Style</display-name>
+                <display-name xml:lang="it-IT">Stile</display-name>
+                <display-name xml:lang="nl-NL">Stijl</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+            <refinement-definition type="attribute" bucket-type="none" attribute-id="FiltreMatiere" system="false">
+                <display-name xml:lang="x-default">Matières</display-name>
+                <display-name xml:lang="fr-FR">Matières</display-name>
+                <display-name xml:lang="it-IT">Materie</display-name>
+                <display-name xml:lang="nl-NL">Materialen</display-name>
+                <value-set>search-result</value-set>
+                <sort-mode>value-name</sort-mode>
+                <sort-direction>ascending</sort-direction>
+                <cutoff-threshold>30</cutoff-threshold>
+            </refinement-definition>
+        </refinement-definitions>
+    </category>
