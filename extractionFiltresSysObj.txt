@@ -1,0 +1,4120 @@
+
+FiltreAccessoire
+	de-AT
+		Aufbewahrungskoffer
+
+	de-DE
+		Aufbewahrungskoffer
+
+	x-default
+		Coffret de rangement
+
+	en-AE
+		Storage box
+
+	es-ES
+		Estuche
+
+	fr-BE
+		Coffret de rangement
+
+	fr-FR
+		Coffret de rangement
+
+	it-IT
+		Valigetta
+
+	nl-BE
+		Opbergkoffer
+
+	nl-NL
+		Opbergkoffer
+
+	de-AT
+		Aufbewahrungstasche
+
+	de-DE
+		Aufbewahrungstasche
+
+	x-default
+		Trousse de rangement
+
+	en-AE
+		Storage pouch
+
+	es-ES
+		Neceser
+
+	fr-BE
+		Trousse de rangement
+
+	fr-FR
+		Trousse de rangement
+
+	it-IT
+		Astuccio
+
+	nl-BE
+		Opbergetui
+
+	nl-NL
+		Opbergetui
+
+	de-AT
+		Kamm
+
+	de-DE
+		Kamm
+
+	x-default
+		Peigne
+
+	en-AE
+		Comb
+
+	es-ES
+		Peine
+
+	fr-BE
+		Peigne
+
+	fr-FR
+		Peigne
+
+	it-IT
+		Pettine
+
+	nl-BE
+		Kam
+
+	nl-NL
+		Kam
+
+	de-AT
+		Schutzaufsatz
+
+	de-DE
+		Schutzaufsatz
+
+	x-default
+		Capot de protection
+
+	en-AE
+		Protective cap
+
+	es-ES
+		Funda de protección
+
+	fr-BE
+		Capot de protection
+
+	fr-FR
+		Capot de protection
+
+	it-IT
+		Cappuccio di protezione
+
+	nl-BE
+		Beschermhoes
+
+	nl-NL
+		Beschermhoes
+
+	de-AT
+		Präzisionsklinge
+
+	de-DE
+		Präzisionsklinge
+
+	x-default
+		Tondeuse de précision
+
+	en-AE
+		Precision trimmer
+
+	es-ES
+		Cortapelos de precisión
+
+	fr-BE
+		Tondeuse de précision
+
+	fr-FR
+		Tondeuse de précision
+
+	it-IT
+		Rifinitore di precisione
+
+	nl-BE
+		Precisie trimmer
+
+	nl-NL
+		Precisie trimmer
+
+	de-AT
+		Zentrierdüse
+
+	de-DE
+		Zentrierdüse
+
+	x-default
+		Concentrateur
+
+	en-AE
+		Concentrator nozzle
+
+	es-ES
+		Concentrador
+
+	fr-BE
+		Concentrateur
+
+	fr-FR
+		Concentrateur
+
+	it-IT
+		Beccuccio concentratore
+
+	nl-BE
+		Blaasmond
+
+	nl-NL
+		Blaasmond
+
+	de-AT
+		Diffusor
+
+	de-DE
+		Diffusor
+
+	x-default
+		Diffuseur
+
+	en-AE
+		Diffuser
+
+	es-ES
+		Difusor
+
+	fr-BE
+		Diffuseur
+
+	fr-FR
+		Diffuseur
+
+	it-IT
+		Diffusore
+
+	nl-BE
+		Diffuser
+
+	nl-NL
+		Diffuser
+
+	de-AT
+		Einziehbarer Kamm
+
+	de-DE
+		Einziehbarer Kamm
+
+	x-default
+		Peigne rétractable
+
+	en-AE
+		Retractable comb
+
+	es-ES
+		Peine retráctil
+
+	fr-BE
+		Peigne rétractable
+
+	fr-FR
+		Peigne rétractable
+
+	it-IT
+		Pettine retrattile
+
+	nl-BE
+		Intrekbare kam
+
+	nl-NL
+		Intrekbare kam
+
+	de-AT
+		Abnehmbarer Kamm
+
+	de-DE
+		Abnehmbarer Kamm
+
+	x-default
+		Peigne amovible
+
+	en-AE
+		Removable comb
+
+	es-ES
+		Peine extraíble
+
+	fr-BE
+		Peigne amovible
+
+	fr-FR
+		Peigne amovible
+
+	it-IT
+		Pettine amovibile
+
+	nl-BE
+		Verwijderbare kam
+
+	nl-NL
+		Verwijderbare kam
+
+	de-AT
+		Brushing Bürste
+
+	de-DE
+		Brushing Bürste
+
+	x-default
+		Brosse brushing
+
+	en-AE
+		Blow-dry brush
+
+	es-ES
+		Cepillo para brushing
+
+	fr-BE
+		Brosse brushing
+
+	fr-FR
+		Brosse brushing
+
+	it-IT
+		Spazzola per il brushing
+
+	nl-BE
+		Brushingborstel
+
+	nl-NL
+		Föhnborstel
+
+	de-AT
+		Hitzeschutzunterlage
+
+	de-DE
+		Hitzeschutzunterlage
+
+	x-default
+		Tapis thermorésistant
+
+	en-AE
+		Heat-resistant mat
+
+	es-ES
+		Alfombrilla termorresistente
+
+	fr-BE
+		Tapis thermorésistant
+
+	fr-FR
+		Tapis thermorésistant
+
+	it-IT
+		Tappetino termo-resistente
+
+	nl-BE
+		Hittebestendige mat
+
+	nl-NL
+		Hittebestendige mat
+
+	de-AT
+		Schnurrbartkamm
+
+	de-DE
+		Schnurrbartkamm
+
+	x-default
+		Peigne à moustache
+
+	en-AE
+		Moustache comb
+
+	es-ES
+		Peine para bigote
+
+	fr-BE
+		Peigne à moustache
+
+	fr-FR
+		Peigne à moustache
+
+	it-IT
+		Pettine per i baffi
+
+	nl-BE
+		Snorkam
+
+	nl-NL
+		Snorkam
+
+	de-AT
+		Schere
+
+	de-DE
+		Schere
+
+	x-default
+		Ciseaux
+
+	en-AE
+		Scissors
+
+	es-ES
+		Tijeras
+
+	fr-BE
+		Ciseaux
+
+	fr-FR
+		Ciseaux
+
+	it-IT
+		Forbici
+
+	nl-BE
+		Schaar
+
+	nl-NL
+		Schaar
+
+	de-AT
+		Aufsteckbürste
+
+	de-DE
+		Aufsteckbürste
+
+	x-default
+		Brosse enfilable
+
+	en-AE
+		Brush sleeve
+
+	es-ES
+		Cepillo intercambiable
+
+	fr-BE
+		Brosse enfilable
+
+	fr-FR
+		Brosse enfilable
+
+	it-IT
+		Spazzola infilabile
+
+	nl-BE
+		Afneembare borstel
+
+	nl-NL
+		Afneembare borstel
+
+	de-AT
+		Hitzeschutzhandschuh
+
+	de-DE
+		Hitzeschutzhandschuh
+
+	x-default
+		Gant isolant
+
+	en-AE
+		Insulated glove
+
+	es-ES
+		Guante aislante
+
+	fr-BE
+		Gant isolant
+
+	fr-FR
+		Gant isolant
+
+	it-IT
+		Guanto isolante
+
+	nl-BE
+		Hittebestendige handschoen
+
+	nl-NL
+		Hittebestendige handschoen
+
+	de-AT
+		Aufbewahrungs- und Ladesockel
+
+	de-DE
+		Aufbewahrungs- und Ladesockel
+
+	x-default
+		Socle de charge et rangement
+
+	en-AE
+		Charging and storage stand
+
+	es-ES
+		Base de carga y almacenaje
+
+	fr-BE
+		Socle de charge et rangement
+
+	fr-FR
+		Socle de charge et rangement
+
+	it-IT
+		Base di appoggio
+
+	nl-BE
+		Oplaad- en opbergstand
+
+	nl-NL
+		Oplaad- en opbergstandaard
+
+	de-AT
+		Hitzeschutzunterlage
+
+	de-DE
+		Hitzeschutzunterlage
+
+	x-default
+		Tapis isolant
+
+	en-AE
+		Insulated mat
+
+	es-ES
+		Alfombrilla aislante
+
+	fr-BE
+		Tapis isolant
+
+	fr-FR
+		Tapis isolant
+
+	it-IT
+		Tappetino termo-resistente
+
+	nl-BE
+		Hittebestendige mat
+
+	nl-NL
+		Hittebestendige mat
+
+	de-AT
+		Glättaufsatz
+
+	de-DE
+		Glättaufsatz
+
+	x-default
+		Tête lissante
+
+	en-AE
+		Straightening head
+
+	es-ES
+		Cabezal alisador
+
+	fr-BE
+		Tête lissante
+
+	fr-FR
+		Tête lissante
+
+	it-IT
+		Testina lisciante
+
+	nl-BE
+		Steilopzetstuk
+
+	nl-NL
+		Staightenerkam
+
+	de-AT
+		Tasche
+
+	de-DE
+		Tasche
+
+	x-default
+		Pochette/Trousse
+
+	en-AE
+		Pocket/Pouch
+
+	es-ES
+		Bolsa/estuche
+
+	fr-BE
+		Pochette/Trousse
+
+	fr-FR
+		Pochette/Trousse
+
+	it-IT
+		Pochette/Trousse
+
+	nl-BE
+		Tas/Etui
+
+	nl-NL
+		Tas/Etui
+
+	de-AT
+		Clips
+
+	de-DE
+		Clips
+
+	x-default
+		Pinces et épingles
+
+	en-AE
+		Clips and pins
+
+	es-ES
+		Pinzas y horquillas
+
+	fr-BE
+		Pinces et épingles
+
+	fr-FR
+		Pinces et épingles
+
+	it-IT
+		Pinze e forcine
+
+	nl-BE
+		Klemmen en pinnen
+
+	nl-NL
+		Klemmen en pinnen
+
+	de-AT
+		Auto-Clip System
+
+	de-DE
+		Auto-Clip System
+
+	x-default
+		Auto-clip system
+
+	en-AE
+		Auto-clip system
+
+	es-ES
+		Sistema Auto-clip
+
+	fr-BE
+		Auto-clip system
+
+	fr-FR
+		Auto-clip system
+
+	it-IT
+		Spazzolare/Pettinare
+
+	nl-BE
+		Auto Clip systeem
+
+	nl-NL
+		Auto Clip systeem
+
+	de-AT
+		Präzisionsaufsatz
+
+	de-DE
+		Präzisionsaufsatz
+
+	x-default
+		Tête de précision
+
+	en-AE
+		Precision head
+
+	es-ES
+		Cabezal de precisión
+
+	fr-BE
+		Tête de précision
+
+	fr-FR
+		Tête de précision
+
+	it-IT
+		Testina di precisione
+
+	nl-BE
+		Precisiekop
+
+	nl-NL
+		Precisie kop
+
+	de-AT
+		Einschränkender Aufsatz
+
+	de-DE
+		Einschränkender Aufsatz
+
+	x-default
+		Réducteur de zone
+
+	en-AE
+		Area reducer
+
+	es-ES
+		Reductor de zona
+
+	fr-BE
+		Réducteur de zone
+
+	fr-FR
+		Réducteur de zone
+
+	it-IT
+		Riduttore della zona
+
+	nl-BE
+		Opzetstuk kleinere huidoppervlakken
+
+	nl-NL
+		Opzetstuk kleinere huidoppervlakten
+
+	de-AT
+		Aufbewahrungssockel
+
+	de-DE
+		Aufbewahrungssockel
+
+	x-default
+		Socle de rangement
+
+	en-AE
+		Storage base
+
+	es-ES
+		Base para soporte
+
+	fr-BE
+		Socle de rangement
+
+	fr-FR
+		Socle de rangement
+
+	it-IT
+		Base di appoggio
+
+	nl-BE
+		Opbergstandaard
+
+	nl-NL
+		Opbergstandaard
+
+
+FiltreBesoins
+	de-AT
+		Schnelles Trocknen
+
+	de-DE
+		Schnelles Trocknen
+
+	x-default
+		Séchage rapide
+
+	en-AE
+		Fast-drying
+
+	es-ES
+		Secado rápido
+
+	fr-BE
+		Séchage rapide
+
+	fr-FR
+		Séchage rapide
+
+	it-IT
+		Asciugatura rapida
+
+	nl-BE
+		Snel-drogend
+
+	nl-NL
+		Snel-drogend
+
+	de-AT
+		Professionelles Stylen
+
+	de-DE
+		Professionelles Stylen
+
+	x-default
+		Brushing professionnel
+
+	en-AE
+		Professional styling
+
+	es-ES
+		Cepillado profesional
+
+	fr-BE
+		Brushing professionnel
+
+	fr-FR
+		Brushing professionnel
+
+	it-IT
+		Brushing professionale
+
+	nl-BE
+		Professionele styling
+
+	nl-NL
+		Professionele styling
+
+	de-AT
+		Schonendes Trocknen
+
+	de-DE
+		Schonendes Trocknen
+
+	x-default
+		Respect du cheveu
+
+	en-AE
+		Respect for hair
+
+	es-ES
+		Protección del cabello
+
+	fr-BE
+		Respect du cheveu
+
+	fr-FR
+		Respect du cheveu
+
+	it-IT
+		Protezione del capello
+
+	nl-BE
+		Respect voor het haar
+
+	nl-NL
+		Respect voor het haar
+
+	de-AT
+		Praktisch und Kompakt
+
+	de-DE
+		Praktisch und Kompakt
+
+	x-default
+		Praticité/Compact
+
+	en-AE
+		Practicality/Compactness
+
+	es-ES
+		Práctico/compacto
+
+	fr-BE
+		Praticité/Compact
+
+	fr-FR
+		Praticité/Compact
+
+	it-IT
+		Praticità/Facile trasporto
+
+	nl-BE
+		Gebruiksgemak/Compact
+
+	nl-NL
+		Gebruiksgemak/Compact
+
+	de-AT
+		Energiesparend
+
+	de-DE
+		Energiesparend
+
+	x-default
+		Economie d'énergie
+
+	en-AE
+		Energy-efficient
+
+	es-ES
+		Ahorro de energía
+
+	fr-BE
+		Economie d'énergie
+
+	fr-FR
+		Economie d'énergie
+
+	it-IT
+		Risparmio energetico
+
+	nl-BE
+		Energiebesparend
+
+	nl-NL
+		Energiebesparend
+
+	de-AT
+		Locken
+
+	de-DE
+		Locken
+
+	x-default
+		Boucler
+
+	en-AE
+		Curling
+
+	es-ES
+		Rizar
+
+	fr-BE
+		Boucler
+
+	fr-FR
+		Boucler
+
+	it-IT
+		Arricciare
+
+	nl-BE
+		Krullen
+
+	nl-NL
+		Krullen
+
+	de-AT
+		Glätten
+
+	de-DE
+		Glätten
+
+	x-default
+		Lisser
+
+	en-AE
+		Straightening
+
+	es-ES
+		Alisar
+
+	fr-BE
+		Lisser
+
+	fr-FR
+		Lisser
+
+	it-IT
+		Lisciare
+
+	nl-BE
+		Stijlen
+
+	nl-NL
+		Stijlen
+
+	de-AT
+		Kreppen
+
+	de-DE
+		Kreppen
+
+	x-default
+		Gauffrer
+
+	en-AE
+		Highlighting
+
+	es-ES
+		Ondular
+
+	fr-BE
+		Gauffrer
+
+	fr-FR
+		Gauffrer
+
+	it-IT
+		Modellare/Frisé
+
+	nl-BE
+		Golven
+
+	nl-NL
+		Golven
+
+	de-AT
+		Entwirren
+
+	de-DE
+		Entwirren
+
+	x-default
+		Démêlage
+
+	en-AE
+		Untangling
+
+	es-ES
+		Desenredado
+
+	fr-BE
+		Démêlage
+
+	fr-FR
+		Démêlage
+
+	it-IT
+		Districare
+
+	nl-BE
+		Ontwarren
+
+	nl-NL
+		Ontwarren
+
+	de-AT
+		Stylen
+
+	de-DE
+		Stylen
+
+	x-default
+		Brushing
+
+	en-AE
+		Styling
+
+	es-ES
+		Cepillado
+
+	fr-BE
+		Brushing
+
+	fr-FR
+		Brushing
+
+	it-IT
+		Brushing
+
+	nl-BE
+		Stylen
+
+	nl-NL
+		Stylen
+
+	de-AT
+		Pflegen
+
+	de-DE
+		Pflegen
+
+	x-default
+		Soin
+
+	en-AE
+		Care
+
+	es-ES
+		Cuidado
+
+	fr-BE
+		Soin
+
+	fr-FR
+		Soin
+
+	it-IT
+		Cura
+
+	nl-BE
+		Verzorgen
+
+	nl-NL
+		Verzorgen
+
+	de-AT
+		Rasieren
+
+	de-DE
+		Rasieren
+
+	x-default
+		Raser
+
+	en-AE
+		Shaving
+
+	es-ES
+		Rasurar
+
+	fr-BE
+		Raser
+
+	fr-FR
+		Raser
+
+	it-IT
+		Rasare
+
+	nl-BE
+		Scheren
+
+	nl-NL
+		Scheren
+
+	de-AT
+		Epilieren
+
+	de-DE
+		Epilieren
+
+	x-default
+		Epiler
+
+	en-AE
+		Epilating
+
+	es-ES
+		Depilar
+
+	fr-BE
+		Epiler
+
+	fr-FR
+		Epiler
+
+	it-IT
+		Epilare
+
+	nl-BE
+		Epileren
+
+	nl-NL
+		Epileren
+
+	en-AE
+		The device
+
+	es-ES
+		El aparato
+
+	fr-BE
+		L'appareil
+
+	fr-FR
+		L'appareil
+
+	it-IT
+		L'apparecchio
+
+	nl-BE
+		Het apparaat
+
+	nl-NL
+		Het apparaat
+
+	en-AE
+		Accessories
+
+	es-ES
+		Los accesorios
+
+	fr-BE
+		Les accessoires
+
+	fr-FR
+		Les accessoires
+
+	it-IT
+		Gli accessori
+
+	nl-BE
+		Accessoires
+
+	nl-NL
+		Accessoires
+
+	en-AE
+		Brushing/Combing
+
+	es-ES
+		Cepillar/peinar
+
+	fr-BE
+		Brosser/Peigner
+
+	fr-FR
+		Brosser/Peigner
+
+	it-IT
+		Spazzolare/Pettinare
+
+	nl-BE
+		Borstelen/Kammen
+
+	nl-NL
+		Borstelen/Kammen
+
+	en-AE
+		Cutting/Shaping
+
+	es-ES
+		Cortar/recortar
+
+	fr-BE
+		Couper/Tailler
+
+	fr-FR
+		Couper/Tailler
+
+	it-IT
+		Tagliare/Regolare
+
+	nl-BE
+		Knippen/trimmen
+
+	nl-NL
+		Snijden/Vormen
+
+
+FiltreBoucles
+	de-AT
+		Definiert
+
+	de-DE
+		Definiert
+
+	x-default
+		Serrées
+
+	en-AE
+		Tightened
+
+	es-ES
+		Cerrados
+
+	fr-BE
+		Serrées
+
+	fr-FR
+		Serrées
+
+	it-IT
+		Stretti
+
+	nl-BE
+		Strak
+
+	nl-NL
+		Strak
+
+	de-AT
+		Luftig
+
+	de-DE
+		Luftig
+
+	x-default
+		Aérées
+
+	en-AE
+		Aerated
+
+	es-ES
+		Sueltos
+
+	fr-BE
+		Aérées
+
+	fr-FR
+		Aérées
+
+	it-IT
+		Morbidi
+
+	nl-BE
+		Luchtig
+
+	nl-NL
+		Luchtig
+
+	de-AT
+		Natürlich
+
+	de-DE
+		Natürlich
+
+	x-default
+		Naturelles
+
+	en-AE
+		Natural
+
+	es-ES
+		Naturales
+
+	fr-BE
+		Naturelles
+
+	fr-FR
+		Naturelles
+
+	it-IT
+		Naturali
+
+	nl-BE
+		Natuurlijk
+
+	nl-NL
+		Natuurlijk
+
+	de-AT
+		Groß
+
+	de-DE
+		Groß
+
+	x-default
+		Larges
+
+	en-AE
+		Wide
+
+	es-ES
+		Anchos
+
+	fr-BE
+		Larges
+
+	fr-FR
+		Larges
+
+	it-IT
+		Ampi
+
+	nl-BE
+		Breed
+
+	nl-NL
+		Breed
+
+
+FiltreBrosse
+	de-AT
+		Naturborsten
+
+	de-DE
+		Naturborsten
+
+	x-default
+		Poils de sanglier
+
+	en-AE
+		Boar-bristle
+
+	es-ES
+		Cerdas de jabalí
+
+	fr-BE
+		Poils de sanglier
+
+	fr-FR
+		Poils de sanglier
+
+	it-IT
+		Setole di cinghiale
+
+	nl-BE
+		Everzwijnharen
+
+	nl-NL
+		Everzwijn haren
+
+	de-AT
+		Thermo
+
+	de-DE
+		Thermo
+
+	x-default
+		Thermique
+
+	en-AE
+		Thermal
+
+	es-ES
+		Térmico
+
+	fr-BE
+		Thermique
+
+	fr-FR
+		Thermique
+
+	it-IT
+		Termica
+
+	nl-BE
+		Warmte
+
+	nl-NL
+		Warmte
+
+	de-AT
+		Kunststoff
+
+	de-DE
+		Kunststoff
+
+	x-default
+		Pictos en plastique
+
+	en-AE
+		Plastic bristles
+
+	es-ES
+		Púas de plástico
+
+	fr-BE
+		Picots en plastique
+
+	fr-FR
+		Picots en plastique
+
+	it-IT
+		Setole in plastica
+
+	nl-BE
+		Kunststof pinnen
+
+	nl-NL
+		Kunststof pictogrammen
+
+
+FiltreCollections
+	de-AT
+		Ipanema
+
+	de-DE
+		Ipanema
+
+	x-default
+		Ipanema
+
+	en-AE
+		Ipanema
+
+	es-ES
+		Ipanema
+
+	fr-BE
+		Ipanema
+
+	fr-FR
+		Ipanema
+
+	it-IT
+		Ipanema
+
+	nl-BE
+		Ipanema
+
+	nl-NL
+		Ipanema
+
+	de-AT
+		Chevron
+
+	de-DE
+		Chevron
+
+	x-default
+		Chevrons
+
+	en-AE
+		Chevrons
+
+	es-ES
+		Chevrons
+
+	fr-BE
+		Chevrons
+
+	fr-FR
+		Chevrons
+
+	it-IT
+		Chevrons
+
+	nl-BE
+		Chevrons
+
+	nl-NL
+		Chevrons
+
+	de-AT
+		Arabesk
+
+	de-DE
+		Arabesk
+
+	x-default
+		Arabesques
+
+	en-AE
+		Arabesque
+
+	es-ES
+		Arabescas
+
+	fr-BE
+		Arabesques
+
+	fr-FR
+		Arabesques
+
+	it-IT
+		Arabesques
+
+	nl-BE
+		Arabesque
+
+	nl-NL
+		Arabesque
+
+	de-AT
+		Tribal
+
+	de-DE
+		Tribal
+
+	x-default
+		Tribal
+
+	en-AE
+		Tribal
+
+	es-ES
+		Tribal
+
+	fr-BE
+		Tribal
+
+	fr-FR
+		Tribal
+
+	it-IT
+		Tribal
+
+	nl-BE
+		Tribal
+
+	nl-NL
+		Tribal
+
+	de-AT
+		Sport
+
+	de-DE
+		Sport
+
+	x-default
+		Sport
+
+	en-AE
+		Sport
+
+	es-ES
+		Sport
+
+	fr-BE
+		Sport
+
+	fr-FR
+		Sport
+
+	it-IT
+		Sport
+
+	nl-BE
+		Sport
+
+	nl-NL
+		Sport
+
+	de-AT
+		Trend
+
+	de-DE
+		Trend
+
+	x-default
+		Mode
+
+	en-AE
+		Fashion
+
+	es-ES
+		Moda
+
+	fr-BE
+		Mode
+
+	fr-FR
+		Mode
+
+	it-IT
+		Mode
+
+	nl-BE
+		Fashion
+
+	nl-NL
+		Fashion
+
+	de-AT
+		Bijoux
+
+	de-DE
+		Bijoux
+
+	x-default
+		Bijoux
+
+	en-AE
+		Jewellery
+
+	es-ES
+		Joyas
+
+	fr-BE
+		Bijoux
+
+	fr-FR
+		Bijoux
+
+	it-IT
+		Bijoux
+
+	nl-BE
+		Jewellery
+
+	nl-NL
+		Jewellery
+
+	de-AT
+		Klassiker
+
+	de-DE
+		Klassiker
+
+	x-default
+		Indispensables
+
+	en-AE
+		Essentials
+
+	es-ES
+		Básicos
+
+	fr-BE
+		Indispensables
+
+	fr-FR
+		Indispensables
+
+	it-IT
+		Indispensabili
+
+	nl-BE
+		Essentials
+
+	nl-NL
+		Essentials
+
+	de-AT
+		Ethno
+
+	de-DE
+		Ethno
+
+	x-default
+		Ethnique
+
+	en-AE
+		Ethnic
+
+	es-ES
+		Étnica
+
+	fr-BE
+		Ethnique
+
+	fr-FR
+		Ethnique
+
+	it-IT
+		Etnico
+
+	nl-BE
+		Ethnic
+
+	nl-NL
+		Ethnic
+
+
+FiltreFonctions
+	de-AT
+		Ionic
+
+	de-DE
+		Ionic
+
+	x-default
+		Ionic
+
+	en-AE
+		Ionic
+
+	es-ES
+		Iónico
+
+	fr-BE
+		Ionic
+
+	fr-FR
+		Ionic
+
+	it-IT
+		Ionic
+
+	nl-BE
+		Ionisch
+
+	nl-NL
+		Ionisch
+
+	de-AT
+		Turbo
+
+	de-DE
+		Turbo
+
+	x-default
+		Turbo
+
+	en-AE
+		Turbo
+
+	es-ES
+		Turbo
+
+	fr-BE
+		Turbo
+
+	fr-FR
+		Turbo
+
+	it-IT
+		Turbo
+
+	nl-BE
+		Turbo
+
+	nl-NL
+		Turbo
+
+	de-AT
+		Kaltluft
+
+	de-DE
+		Kaltluft
+
+	x-default
+		Air froid
+
+	en-AE
+		Cold air
+
+	es-ES
+		Aire frío
+
+	fr-BE
+		Air froid
+
+	fr-FR
+		Air froid
+
+	it-IT
+		Aria fredda
+
+	nl-BE
+		Cool shot
+
+	nl-NL
+		Cool shot
+
+	de-AT
+		Schnellladung
+
+	de-DE
+		Schnellladung
+
+	x-default
+		Quick charge
+
+	en-AE
+		Quick charge
+
+	es-ES
+		Quick Charge
+
+	fr-BE
+		Quick charge
+
+	fr-FR
+		Quick charge
+
+	it-IT
+		Ricarica rapida
+
+	nl-BE
+		Snel opladen
+
+	nl-NL
+		Snel opladen
+
+	de-AT
+		Wet & Dry
+
+	de-DE
+		Wet & Dry
+
+	x-default
+		Wet & Dry
+
+	en-AE
+		Wet & Dry
+
+	es-ES
+		Wet & Dry
+
+	fr-BE
+		Wet & Dry
+
+	fr-FR
+		Wet & Dry
+
+	it-IT
+		Wet & Dry
+
+	nl-BE
+		Wet & Dry
+
+	nl-NL
+		Wet & Dry
+
+	de-AT
+		Effilieren
+
+	de-DE
+		Effilieren
+
+	x-default
+		Effilage
+
+	en-AE
+		Tapering
+
+	es-ES
+		Desfilado
+
+	fr-BE
+		Effilage
+
+	fr-FR
+		Effilage
+
+	it-IT
+		Sfilatura
+
+	nl-BE
+		Uitdunnen
+
+	nl-NL
+		Taps toelopend
+
+	de-AT
+		Digitales Display
+
+	de-DE
+		Digitales Display
+
+	x-default
+		Affichage digital
+
+	en-AE
+		Digital display
+
+	es-ES
+		Indicador digital
+
+	fr-BE
+		Affichage digital
+
+	fr-FR
+		Affichage digital
+
+	it-IT
+		Display digitale
+
+	nl-BE
+		Digitaal display
+
+	nl-NL
+		Digitaal display
+
+	de-AT
+		Waterproof
+
+	de-DE
+		Waterproof
+
+	x-default
+		Waterproof
+
+	en-AE
+		Waterproof
+
+	es-ES
+		Impermeable
+
+	fr-BE
+		Waterproof
+
+	fr-FR
+		Waterproof
+
+	it-IT
+		Waterproof
+
+	nl-BE
+		Waterproof
+
+	nl-NL
+		Waterproof
+
+	de-AT
+		Rotierende Bürste
+
+	de-DE
+		Rotierende Bürste
+
+	x-default
+		Brosse rotative
+
+	en-AE
+		Rotating brush
+
+	es-ES
+		Cepillo giratorio
+
+	fr-BE
+		Brosse rotative
+
+	fr-FR
+		Brosse rotative
+
+	it-IT
+		Spazzola rotante
+
+	nl-BE
+		Roterende borstel
+
+	nl-NL
+		Roterende borstel
+
+	de-AT
+		Memory Funktion
+
+	de-DE
+		Memory Funktion
+
+	x-default
+		Fonction mémoire
+
+	en-AE
+		Memory function
+
+	es-ES
+		Función memoria
+
+	fr-BE
+		Fonction mémoire
+
+	fr-FR
+		Fonction mémoire
+
+	it-IT
+		Funzione memoria
+
+	nl-BE
+		Geheugenfunctie
+
+	nl-NL
+		Geheugenfunctie
+
+	de-AT
+		Haarauffangbehälter
+
+	de-DE
+		Haarauffangbehälter
+
+	x-default
+		Collecteur de poils
+
+	en-AE
+		Hair collector
+
+	es-ES
+		Recolector de vello
+
+	fr-BE
+		Collecteur de poils
+
+	fr-FR
+		Collecteur de poils
+
+	it-IT
+		Colletore di peli
+
+	nl-BE
+		Haaropvang-systeem
+
+	nl-NL
+		Haaropvang-systeem
+
+	de-AT
+		Rasur
+
+	de-DE
+		Rasur
+
+	x-default
+		Rasage
+
+	en-AE
+		Shaving
+
+	es-ES
+		Afeitado
+
+	fr-BE
+		Rasage
+
+	fr-FR
+		Rasage
+
+	it-IT
+		Rasatura
+
+	nl-BE
+		Scheren
+
+	nl-NL
+		Scheren
+
+	de-AT
+		Vergrößernd
+
+	de-DE
+		Vergrößernd
+
+	x-default
+		Grossissante
+
+	en-AE
+		Magnifying
+
+	es-ES
+		De aumento
+
+	fr-BE
+		Grossissante
+
+	fr-FR
+		Grossissante
+
+	it-IT
+		Ingrandente
+
+	nl-BE
+		Vergrotend
+
+	nl-NL
+		Vergrotend
+
+	de-AT
+		Normal
+
+	de-DE
+		Normal
+
+	x-default
+		Normale
+
+	en-AE
+		Normal
+
+	es-ES
+		Normal
+
+	fr-BE
+		Normale
+
+	fr-FR
+		Normale
+
+	it-IT
+		Normale
+
+	nl-BE
+		Normaal
+
+	nl-NL
+		Normaal
+
+	de-AT
+		Pediküre
+
+	de-DE
+		Pediküre
+
+	x-default
+		Pédicure
+
+	en-AE
+		Pedicure
+
+	es-ES
+		Pedicura
+
+	fr-BE
+		Pédicure
+
+	fr-FR
+		Pédicure
+
+	it-IT
+		Pedicure
+
+	nl-BE
+		Pedicure
+
+	nl-NL
+		Pedicure
+
+	de-AT
+		Maniküre
+
+	de-DE
+		Maniküre
+
+	x-default
+		Manucure
+
+	en-AE
+		Manicure
+
+	es-ES
+		Manicura
+
+	fr-BE
+		Manucure
+
+	fr-FR
+		Manucure
+
+	it-IT
+		Manicure
+
+	nl-BE
+		Manicure
+
+	nl-NL
+		Manicure
+
+	de-AT
+		Hauttonsensor
+
+	de-DE
+		Hauttonsensor
+
+	x-default
+		Skin sensor
+
+	en-AE
+		Skin sensor
+
+	es-ES
+		Skin sensor
+
+	fr-BE
+		Skin sensor
+
+	fr-FR
+		Skin sensor
+
+	it-IT
+		Skin sensor
+
+	nl-BE
+		Huidsensor
+
+	nl-NL
+		Huidsensor
+
+	de-AT
+		Bluetooth
+
+	de-DE
+		Bluetooth
+
+	x-default
+		Connexion Bluetooth
+
+	en-AE
+		Bluetooth connection
+
+	es-ES
+		Conexión Bluetooth
+
+	fr-BE
+		Connexion Bluetooth
+
+	fr-FR
+		Connexion Bluetooth
+
+	it-IT
+		Connessione Bluetooth
+
+	nl-BE
+		Bluetooth verbinding
+
+	nl-NL
+		Bluetooth verbinding
+
+	de-AT
+		Dampf
+
+	de-DE
+		Dampf
+
+	x-default
+		Vapeur
+
+	en-AE
+		Vapour
+
+	es-ES
+		Vapor
+
+	fr-BE
+		Vapeur
+
+	fr-FR
+		Vapeur
+
+	it-IT
+		Vapore
+
+	nl-BE
+		Stoom
+
+	nl-NL
+		Stoom
+
+	de-AT
+		Locken
+
+	de-DE
+		Locken
+
+	x-default
+		Boucleur
+
+	en-AE
+		Curler
+
+	es-ES
+		Rizador
+
+	fr-BE
+		Boucleur
+
+	fr-FR
+		Boucleur
+
+	it-IT
+		Arricciacapelli
+
+	nl-BE
+		Krultang
+
+	nl-NL
+		Krultang
+
+	en-AE
+		Easy cleaning
+
+	es-ES
+		Limpieza fácil
+
+	fr-BE
+		Nettoyage facile
+
+	fr-FR
+		Nettoyage facile
+
+	it-IT
+		Pulizia facile
+
+	nl-BE
+		Eenvoudig reinigen
+
+	nl-NL
+		Eenvoudig reinigen
+
+
+FiltreFormat
+	de-AT
+		Kompakt
+
+	de-DE
+		Kompakt
+
+	x-default
+		Galet
+
+	en-AE
+		Pebble
+
+	es-ES
+		Rodillo
+
+	fr-BE
+		Galet
+
+	fr-FR
+		Galet
+
+	it-IT
+		Compatto
+
+	nl-BE
+		Rol
+
+	nl-NL
+		Rol
+
+	de-AT
+		Pistole
+
+	de-DE
+		Pistole
+
+	x-default
+		Pistolet
+
+	en-AE
+		Pistol
+
+	es-ES
+		Pistola
+
+	fr-BE
+		Pistolet
+
+	fr-FR
+		Pistolet
+
+	it-IT
+		A pistola
+
+	nl-BE
+		Pistol
+
+	nl-NL
+		Pistol
+
+
+FiltreHauteurDecoupe
+	de-AT
+		4-34mm
+
+	de-DE
+		4-34mm
+
+	x-default
+		4-34 mm
+
+	en-AE
+		4-34 mm
+
+	es-ES
+		4-34 mm
+
+	fr-BE
+		4-34 mm
+
+	fr-FR
+		4-34 mm
+
+	nl-BE
+		4-34 mm
+
+	nl-NL
+		4-34 mm
+
+	x-default
+		3-36 mm
+
+	en-AE
+		3-36 mm
+
+	es-ES
+		3-36 mm
+
+	fr-BE
+		3-36 mm
+
+	fr-FR
+		3-36 mm
+
+	nl-BE
+		3-36 mm
+
+	nl-NL
+		3-36 mm
+
+	x-default
+		3-25 mm
+
+	en-AE
+		3-25 mm
+
+	es-ES
+		3-25 mm
+
+	fr-BE
+		3-25 mm
+
+	fr-FR
+		3-25 mm
+
+	nl-BE
+		3-25 mm
+
+	nl-NL
+		3-25 mm
+
+	x-default
+		1-35 mm
+
+	en-AE
+		1-35 mm
+
+	es-ES
+		1-35 mm
+
+	fr-BE
+		1-35 mm
+
+	fr-FR
+		1-35 mm
+
+	nl-BE
+		1-35 mm
+
+	nl-NL
+		1-35 mm
+
+	x-default
+		1-20 mm
+
+	en-AE
+		1-20 mm
+
+	es-ES
+		1-20 mm
+
+	fr-BE
+		1-20 mm
+
+	fr-FR
+		1-20 mm
+
+	nl-BE
+		1-20 mm
+
+	nl-NL
+		1-20 mm
+
+	x-default
+		0,4-10 mm
+
+	en-AE
+		0,4-10 mm
+
+	es-ES
+		0,4-10 mm
+
+	fr-BE
+		0,4-10 mm
+
+	fr-FR
+		0,4-10 mm
+
+	nl-BE
+		0,4-10 mm
+
+	nl-NL
+		0,4-10 mm
+
+	en-AE
+		0,4-12 mm
+
+	es-ES
+		0,4-12 mm
+
+	fr-BE
+		0,4-12 mm
+
+	fr-FR
+		0,4-12 mm
+
+	nl-BE
+		0,4-12 mm
+
+	nl-NL
+		0,4-12 mm
+
+
+FiltreLongueurDeCheveux
+	de-AT
+		Kurz
+
+	de-DE
+		Kurz
+
+	x-default
+		Court
+
+	en-AE
+		Short
+
+	es-ES
+		Corto
+
+	fr-BE
+		Court
+
+	fr-FR
+		Court
+
+	it-IT
+		Corto
+
+	nl-BE
+		Kort
+
+	nl-NL
+		Kort
+
+	de-AT
+		Mittellang
+
+	de-DE
+		Mittellang
+
+	x-default
+		Mi-long
+
+	en-AE
+		Medium length
+
+	es-ES
+		Media melena
+
+	fr-BE
+		Mi-long
+
+	fr-FR
+		Mi-long
+
+	it-IT
+		Medio-lungo
+
+	nl-BE
+		Medium
+
+	nl-NL
+		Medium
+
+	de-AT
+		Lang
+
+	de-DE
+		Lang
+
+	x-default
+		Long
+
+	en-AE
+		Long
+
+	es-ES
+		Largo
+
+	fr-BE
+		Long
+
+	fr-FR
+		Long
+
+	it-IT
+		Lungo
+
+	nl-BE
+		Lang
+
+	nl-NL
+		Lang
+
+
+FiltreMatiere
+	de-AT
+		Polyester
+
+	de-DE
+		Polyester
+
+	x-default
+		Polyester
+
+	en-AE
+		Polyester
+
+	es-ES
+		Poliéster
+
+	fr-BE
+		Polyester
+
+	fr-FR
+		Polyester
+
+	it-IT
+		Poliestere
+
+	nl-BE
+		Polyester
+
+	nl-NL
+		Polyester
+
+	de-AT
+		Denim
+
+	de-DE
+		Denim
+
+	x-default
+		Denim
+
+	en-AE
+		Denim
+
+	es-ES
+		Denim
+
+	fr-BE
+		Denim
+
+	fr-FR
+		Denim
+
+	it-IT
+		Denim
+
+	nl-BE
+		Denim
+
+	nl-NL
+		Denim
+
+
+FiltreMoteurs
+	de-AT
+		Professionell
+
+	de-DE
+		Professionell
+
+	x-default
+		Professionnel
+
+	en-AE
+		Professional
+
+	es-ES
+		Profesional
+
+	fr-BE
+		Professionnel
+
+	fr-FR
+		Professionnel
+
+	it-IT
+		Professionale AC
+
+	nl-BE
+		Professioneel
+
+	nl-NL
+		Professioneel
+
+	de-AT
+		Klassisch
+
+	de-DE
+		Klassisch
+
+	x-default
+		Classique
+
+	en-AE
+		Classic
+
+	es-ES
+		Clásico
+
+	fr-BE
+		Classique
+
+	fr-FR
+		Classique
+
+	it-IT
+		Classico DC
+
+	nl-BE
+		Klassiek
+
+	nl-NL
+		Klassiek
+
+	it-IT
+		Digitale EC
+
+
+FiltreNombreDeFlash
+	en-AE
+		300 000
+
+	es-ES
+		300 000
+
+	fr-BE
+		300 000
+
+	fr-FR
+		300 000
+
+	it-IT
+		300 000
+
+	nl-BE
+		300 000
+
+	nl-NL
+		300 000
+
+	en-AE
+		200 000
+
+	es-ES
+		200 000
+
+	fr-BE
+		200 000
+
+	fr-FR
+		200 000
+
+	it-IT
+		200 000
+
+	nl-BE
+		200 000
+
+	nl-NL
+		200 000
+
+	en-AE
+		100 000
+
+	es-ES
+		100 000
+
+	fr-BE
+		100 000
+
+	fr-FR
+		100 000
+
+	it-IT
+		100 000
+
+	nl-BE
+		100 000
+
+	nl-NL
+		100 000
+
+
+FiltreOptions
+	de-AT
+		Augenbrauenaufsatz
+
+	de-DE
+		Augenbrauenaufsatz
+
+	x-default
+		Tête Sourcil
+
+	en-AE
+		Eyebrow head
+
+	es-ES
+		Cabezal ceja
+
+	fr-BE
+		Tête Sourcil
+
+	fr-FR
+		Tête Sourcil
+
+	it-IT
+		Testina sopracciglia
+
+	nl-BE
+		Wenkbrauw opzetstuk
+
+	nl-NL
+		Wenkbrauw opzetstuk
+
+	de-AT
+		Präzisionsklinge für Konturen
+
+	de-DE
+		Präzisionsklinge für Konturen
+
+	x-default
+		Rasage contours nets
+
+	en-AE
+		Sharp contour shaving
+
+	es-ES
+		Afeitado contornos definidos
+
+	fr-BE
+		Rasage contours nets
+
+	fr-FR
+		Rasage contours nets
+
+	it-IT
+		Testina di precisione per i dettagli
+
+	nl-BE
+		Scherpe contouren scheren
+
+	nl-NL
+		Scherpe contouren scheren
+
+	de-AT
+		Nasen-/Ohrhaarschneider
+
+	de-DE
+		Nasen-/Ohrhaarschneider
+
+	x-default
+		Nez/Oreille
+
+	en-AE
+		Nose/Ear
+
+	es-ES
+		Nariz/orejas
+
+	fr-BE
+		Nez/Oreille
+
+	fr-FR
+		Nez/Oreille
+
+	it-IT
+		Naso/Orecchie
+
+	nl-BE
+		Neus/Oor
+
+	nl-NL
+		Neus/Oor
+
+	de-AT
+		Massage
+
+	de-DE
+		Massage
+
+	x-default
+		Massage
+
+	en-AE
+		Massage
+
+	es-ES
+		Masaje
+
+	fr-BE
+		Massage
+
+	fr-FR
+		Massage
+
+	it-IT
+		Massaggio
+
+	nl-BE
+		Massage
+
+	nl-NL
+		Massage
+
+	de-AT
+		Saugnapf
+
+	de-DE
+		Saugnapf
+
+	x-default
+		Ventouses
+
+	en-AE
+		Suction pad
+
+	es-ES
+		Ventosas
+
+	fr-BE
+		Ventouses
+
+	fr-FR
+		Ventouses
+
+	it-IT
+		Ventose
+
+	nl-BE
+		Zuignappen
+
+	nl-NL
+		Zuignappen
+
+	de-AT
+		Beleuchtung
+
+	de-DE
+		Beleuchtung
+
+	x-default
+		Eclairage
+
+	en-AE
+		Lighting
+
+	es-ES
+		Iluminación
+
+	fr-BE
+		Eclairage
+
+	fr-FR
+		Eclairage
+
+	it-IT
+		Illuminazione
+
+	nl-BE
+		Verlichting
+
+	nl-NL
+		Verlichting
+
+	de-AT
+		Pediküre
+
+	de-DE
+		Pediküre
+
+	x-default
+		Pédicure
+
+	en-AE
+		Pedicure
+
+	es-ES
+		Pédicure
+
+	fr-BE
+		Pédicure
+
+	fr-FR
+		Pédicure
+
+	it-IT
+		Pedicure
+
+	nl-BE
+		Pedicure
+
+	nl-NL
+		Pedicure
+
+	de-AT
+		Massagerolle(n)
+
+	de-DE
+		Massagerolle(n)
+
+	x-default
+		Rouleau(x) massant(s)
+
+	en-AE
+		Massaging rollers
+
+	es-ES
+		Rodillo(s) de masaje
+
+	fr-BE
+		Rouleau(x) massant(s)
+
+	fr-FR
+		Rouleau(x) massant(s)
+
+	it-IT
+		Rullo/i massaggiante/i
+
+	nl-BE
+		Massage rollers
+
+	nl-NL
+		Massage rollers
+
+	de-AT
+		Präzisionslicht
+
+	de-DE
+		Präzisionslicht
+
+	x-default
+		Lumière de précision
+
+	en-AE
+		Precision light
+
+	es-ES
+		Luz de precisión
+
+	fr-BE
+		Lumière de précision
+
+	fr-FR
+		Lumière de précision
+
+	it-IT
+		Luce di precisione
+
+	nl-BE
+		Precisie licht
+
+	nl-NL
+		Precisie licht
+
+	de-AT
+		Körperaufsatz
+
+	de-DE
+		Körperaufsatz
+
+	x-default
+		1 tête Corps
+
+	en-AE
+		1 Body head
+
+	es-ES
+		1 cabezal Cuerpo
+
+	fr-BE
+		1 tête Corps
+
+	fr-FR
+		1 tête Corps
+
+	it-IT
+		1 testina Corpo
+
+	nl-BE
+		1 Opzetstuk voor het lichaam
+
+	nl-NL
+		1 Opzetstuk voor het lichaam
+
+	de-AT
+		Präzisionsaufsatz
+
+	de-DE
+		Präzisionsaufsatz
+
+	x-default
+		1 tête Visage/Zones sensibles
+
+	en-AE
+		1 Face/Sensitive areas head
+
+	es-ES
+		1 cabezal Cara / Zonas sensibles
+
+	fr-BE
+		1 tête Visage/Zones sensibles
+
+	fr-FR
+		1 tête Visage/Zones sensibles
+
+	it-IT
+		1 testina Viso / Zone delicate
+
+	nl-BE
+		1 Opzetstuk voor gezicht en de gevoelige delen
+
+	nl-NL
+		1 Opzetstuk voor gezicht en de gevoelige delen
+
+
+FiltrePicotsPoils
+	de-AT
+		Kunst- und Naturborsten
+
+	de-DE
+		Kunst- und Naturborsten
+
+	x-default
+		Nylon/Sanglier
+
+	en-AE
+		Nylon/Boar
+
+	es-ES
+		Nailon/jabalí
+
+	fr-BE
+		Nylon/Sanglier
+
+	fr-FR
+		Nylon/Sanglier
+
+	it-IT
+		Nylon / Setoloe di cinghiale
+
+	nl-BE
+		Nylon/Everzwijn
+
+	nl-NL
+		Nylon/Everzwijn
+
+	de-AT
+		Naturborsten
+
+	de-DE
+		Naturborsten
+
+	x-default
+		Sanglier
+
+	en-AE
+		Boar
+
+	es-ES
+		Jabalí
+
+	fr-BE
+		Sanglier
+
+	fr-FR
+		Sanglier
+
+	it-IT
+		Setole di cinghiale
+
+	nl-BE
+		Everzwijn
+
+	nl-NL
+		Everzwijn
+
+
+FiltrePrecisions
+	de-AT
+		3mm
+
+	de-DE
+		3mm
+
+	x-default
+		3 mm
+
+	en-AE
+		3 mm
+
+	es-ES
+		3 mm
+
+	fr-BE
+		3 mm
+
+	fr-FR
+		3 mm
+
+	it-IT
+		3 mm
+
+	nl-BE
+		3 mm
+
+	nl-NL
+		3 mm
+
+	x-default
+		2 mm
+
+	en-AE
+		2 mm
+
+	es-ES
+		2 mm
+
+	fr-BE
+		2 mm
+
+	fr-FR
+		2 mm
+
+	it-IT
+		2 mm
+
+	nl-BE
+		2 mm
+
+	nl-NL
+		2 mm
+
+	x-default
+		1 mm
+
+	en-AE
+		1 mm
+
+	es-ES
+		1 mm
+
+	fr-BE
+		1 mm
+
+	fr-FR
+		1 mm
+
+	it-IT
+		1 mm
+
+	nl-BE
+		1 mm
+
+	nl-NL
+		1 mm
+
+	x-default
+		0,7 mm
+
+	en-AE
+		0,7 mm
+
+	es-ES
+		0,7 mm
+
+	fr-BE
+		0,7 mm
+
+	fr-FR
+		0,7 mm
+
+	it-IT
+		0,7 mm
+
+	nl-BE
+		0,7 mm
+
+	nl-NL
+		0,7 mm
+
+	x-default
+		0,6 mm
+
+	en-AE
+		0,6 mm
+
+	es-ES
+		0,6 mm
+
+	fr-BE
+		0,6 mm
+
+	fr-FR
+		0,6 mm
+
+	it-IT
+		0,6 mm
+
+	nl-BE
+		0,6 mm
+
+	nl-NL
+		0,6 mm
+
+	x-default
+		0,5 mm
+
+	en-AE
+		0,5 mm
+
+	es-ES
+		0,5 mm
+
+	fr-BE
+		0,5 mm
+
+	fr-FR
+		0,5 mm
+
+	it-IT
+		0,5 mm
+
+	nl-BE
+		0,5 mm
+
+	nl-NL
+		0,5 mm
+
+	x-default
+		0,2 mm
+
+	en-AE
+		0,2 mm
+
+	es-ES
+		0,2 mm
+
+	fr-BE
+		0,2 mm
+
+	fr-FR
+		0,2 mm
+
+	it-IT
+		0,2 mm
+
+	nl-BE
+		0,2 mm
+
+	nl-NL
+		0,2 mm
+
+
+FiltreReglageHauteur
+	de-AT
+		Motorisiert
+
+	de-DE
+		Motorisiert
+
+	x-default
+		Motorisé
+
+	en-AE
+		Motorised
+
+	es-ES
+		Motorizado
+
+	fr-BE
+		Motorisé
+
+	fr-FR
+		Motorisé
+
+	it-IT
+		Motorizzata
+
+	nl-BE
+		Gemotoriseerd
+
+	nl-NL
+		Gemotoriseerd
+
+	de-AT
+		Manuell
+
+	de-DE
+		Manuell
+
+	x-default
+		Manuel
+
+	en-AE
+		Manual
+
+	es-ES
+		Manual
+
+	fr-BE
+		Manuel
+
+	fr-FR
+		Manuel
+
+	it-IT
+		Manuale
+
+	nl-BE
+		Handmatig
+
+	nl-NL
+		Handmatig
+
+
+FiltreSensDeBouclage
+	de-AT
+		Rechts
+
+	de-DE
+		Rechts
+
+	x-default
+		Droite
+
+	en-AE
+		Right
+
+	es-ES
+		Derecha
+
+	fr-BE
+		Droite
+
+	fr-FR
+		Droite
+
+	it-IT
+		Destra
+
+	nl-BE
+		Rechts
+
+	nl-NL
+		Rechts
+
+	de-AT
+		Links
+
+	de-DE
+		Links
+
+	x-default
+		Gauche
+
+	en-AE
+		Left
+
+	es-ES
+		Izquierda
+
+	fr-BE
+		Gauche
+
+	fr-FR
+		Gauche
+
+	it-IT
+		Sinistra
+
+	nl-BE
+		Links
+
+	nl-NL
+		Links
+
+	de-AT
+		Abwechselnd
+
+	de-DE
+		Abwechselnd
+
+	x-default
+		Alterné
+
+	en-AE
+		Alternating
+
+	es-ES
+		Alterno
+
+	fr-BE
+		Alterné
+
+	fr-FR
+		Alterné
+
+	it-IT
+		Alternata
+
+	nl-BE
+		Afwisselend
+
+	nl-NL
+		Afwisselend
+
+
+FiltreStyle
+	de-AT
+		Nomade
+
+	de-DE
+		Nomade
+
+	x-default
+		Nomade
+
+	en-AE
+		Nomad
+
+	es-ES
+		Nómada
+
+	fr-BE
+		Nomade
+
+	fr-FR
+		Nomade
+
+	it-IT
+		Nomade 
+
+	nl-BE
+		Nomad
+
+	nl-NL
+		Nomad
+
+	de-AT
+		Urban
+
+	de-DE
+		Urban
+
+	x-default
+		Urbain
+
+	en-AE
+		Urban
+
+	es-ES
+		Urbano
+
+	fr-BE
+		Urbain
+
+	fr-FR
+		Urbain
+
+	it-IT
+		Urban
+
+	nl-BE
+		Urban
+
+	nl-NL
+		Urban
+
+
+FiltreSystemes
+	de-AT
+		Doppelter Kopf
+
+	de-DE
+		Doppelter Kopf
+
+	x-default
+		Double tête
+
+	en-AE
+		Double head
+
+	es-ES
+		Doble cabezal
+
+	fr-BE
+		Double tête
+
+	fr-FR
+		Double tête
+
+	it-IT
+		Testina doppia
+
+	nl-BE
+		Dubbele kop
+
+	nl-NL
+		Dubbele kop
+
+	de-AT
+		Einfacher Kopf
+
+	de-DE
+		Einfacher Kopf
+
+	x-default
+		1 tête
+
+	en-AE
+		1 head
+
+	es-ES
+		1 cabezal
+
+	fr-BE
+		1 tête
+
+	fr-FR
+		1 tête
+
+	it-IT
+		1 testina
+
+	nl-BE
+		Enkele kop
+
+	nl-NL
+		Enkele kop
+
+
+FiltreTypeDeCheveux
+	de-AT
+		Feines oder angegriffenes Haar
+
+	de-DE
+		Feines oder angegriffenes Haar
+
+	x-default
+		Fins ou fragilisés
+
+	en-AE
+		Fine or fragile
+
+	es-ES
+		Finos o débiles
+
+	fr-BE
+		Fins ou fragilisés
+
+	fr-FR
+		Fins ou fragilisés
+
+	it-IT
+		Sottili o danneggiati
+
+	nl-BE
+		Fijn of breekbaar
+
+	nl-NL
+		Fijn of breekbaar
+
+	de-AT
+		Normales Haar
+
+	de-DE
+		Normales Haar
+
+	x-default
+		Normaux
+
+	en-AE
+		Normal
+
+	es-ES
+		Normales
+
+	fr-BE
+		Normaux
+
+	fr-FR
+		Normaux
+
+	it-IT
+		Normali
+
+	nl-BE
+		Normaal
+
+	nl-NL
+		Normaal
+
+	de-AT
+		Kräftiges oder gelocktes Haar
+
+	de-DE
+		Kräftiges oder gelocktes Haar
+
+	x-default
+		Epais et frisés
+
+	en-AE
+		Thick or curly
+
+	es-ES
+		Gruesos o rizos
+
+	fr-BE
+		Epais ou frisés
+
+	fr-FR
+		Epais ou frisés
+
+	it-IT
+		Spessi e ricci
+
+	nl-BE
+		Dik en krullend
+
+	nl-NL
+		Dik en krullend
+
+	de-AT
+		Alle Haartypen
+
+	de-DE
+		Alle Haartypen
+
+	x-default
+		Tous types de cheveux
+
+	en-AE
+		All hair types
+
+	es-ES
+		Todo tipo de cabello
+
+	fr-BE
+		Tous types de cheveux
+
+	fr-FR
+		Tous types de cheveux
+
+	it-IT
+		Per tutti i tipi di capelli
+
+	nl-BE
+		Alle haartypen
+
+	nl-NL
+		Alle haartypen
+
+	de-AT
+		Feines oder angegriffenes Haar
+
+	de-DE
+		Feines oder angegriffenes Haar
+
+	x-default
+		Fins
+
+	en-AE
+		Fine
+
+	es-ES
+		Finos
+
+	fr-BE
+		Fins
+
+	fr-FR
+		Fins
+
+	it-IT
+		Sottili
+
+	nl-BE
+		Dun
+
+	nl-NL
+		Dun
+
+	de-AT
+		Kräftiges oder gelocktes Haar
+
+	de-DE
+		Kräftiges oder gelocktes Haar
+
+	x-default
+		Epais
+
+	en-AE
+		Thick
+
+	es-ES
+		Gruesos
+
+	fr-BE
+		Epais
+
+	fr-FR
+		Epais
+
+	it-IT
+		Spessi
+
+	nl-BE
+		Dik
+
+	nl-NL
+		Dik
+
+
+FiltreUsages
+	de-AT
+		Körper
+
+	de-DE
+		Körper
+
+	x-default
+		Corps
+
+	en-AE
+		Body
+
+	es-ES
+		Cuerpo
+
+	fr-BE
+		Corps
+
+	fr-FR
+		Corps
+
+	it-IT
+		Corpo
+
+	nl-BE
+		Lichaam
+
+	nl-NL
+		Lichaam
+
+	de-AT
+		Haare
+
+	de-DE
+		Haare
+
+	x-default
+		Cheveux
+
+	en-AE
+		Hair
+
+	es-ES
+		Cabello
+
+	fr-BE
+		Cheveux
+
+	fr-FR
+		Cheveux
+
+	it-IT
+		Capelli
+
+	nl-BE
+		Haar
+
+	nl-NL
+		Haar
+
+	de-AT
+		Bart
+
+	de-DE
+		Bart
+
+	x-default
+		Barbe
+
+	en-AE
+		Beard
+
+	es-ES
+		Barba
+
+	fr-BE
+		Barbe
+
+	fr-FR
+		Barbe
+
+	it-IT
+		Barba
+
+	nl-BE
+		Baard
+
+	nl-NL
+		Baard
+
+
+FiltreUtilisations
+	de-AT
+		Abwaschbar
+
+	de-DE
+		Abwaschbar
+
+	x-default
+		Washable
+
+	en-AE
+		Washable
+
+	es-ES
+		Lavable
+
+	fr-BE
+		Washable
+
+	fr-FR
+		Washable
+
+	it-IT
+		Lavabile
+
+	nl-BE
+		Afwasbaar
+
+	nl-NL
+		Afwasbaar
+
+	de-AT
+		Akkubetrieb
+
+	de-DE
+		Akkubetrieb
+
+	x-default
+		Sans fil
+
+	en-AE
+		Cordless
+
+	es-ES
+		Sin cable
+
+	fr-BE
+		Sans fil
+
+	fr-FR
+		Sans fil
+
+	it-IT
+		Ricaricabile
+
+	nl-BE
+		Snoerloos
+
+	nl-NL
+		Snoerloos
+
+	de-AT
+		Netzbetrieb
+
+	de-DE
+		Netzbetrieb
+
+	x-default
+		Sur secteur
+
+	en-AE
+		Mains connection
+
+	es-ES
+		Conectado a la red eléctrica
+
+	fr-BE
+		Sur secteur
+
+	fr-FR
+		Sur secteur
+
+	it-IT
+		A rete
+
+	nl-BE
+		Lichtnet
+
+	nl-NL
+		Lichtnet
+
+	en-AE
+		Wet & Dry
+
+	es-ES
+		Wet & Dry
+
+	fr-BE
+		Wet & Dry
+
+	fr-FR
+		Wet & Dry
+
+	it-IT
+		Wet & Dry
+
+	nl-BE
+		Luchtsnelheid
+
+	nl-NL
+		Luchtsnelheid
+
+
+FiltreVitesseDAir
+	de-AT
+		50 - 85km/h
+
+	de-DE
+		50 - 85km/h
+
+	x-default
+		50 - 85 km/h
+
+	en-AE
+		50 - 85 km/h
+
+	es-ES
+		50 - 85 km/h
+
+	fr-BE
+		50 - 85 km/h
+
+	fr-FR
+		50 - 85 km/h
+
+	it-IT
+		50 - 85 km/h
+
+	nl-BE
+		50 - 85 km/h
+
+	nl-NL
+		50 - 85 km/h
+
+	x-default
+		90 - 170 km/h
+
+	en-AE
+		90 - 170 km/h
+
+	es-ES
+		90 - 170 km/h
+
+	fr-BE
+		90 - 170 km/h
+
+	fr-FR
+		90 - 170 km/h
+
+	it-IT
+		90 - 170 km/h
+
+	nl-BE
+		90 - 170 km/h
+
+	nl-NL
+		90 - 170 km/h
+
+	x-default
+		> 200 km/h
+
+	en-AE
+		> 200 km/h
+
+	es-ES
+		> 200 km/h
+
+	fr-BE
+		> 200 km/h
+
+	fr-FR
+		> 200 km/h
+
+	it-IT
+		> 200 km/h
+
+	nl-BE
+		> 200 km/h
+
+	nl-NL
+		> 200 km/h
+
