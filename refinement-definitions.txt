@@ -1,0 +1,669 @@
+root
+
+vrouw
+
+haarverzorging
+
+curl-secret
+	FiltreBoucles
+		x-default
+			Boucle
+		fr-FR
+			Boucle
+		it-IT
+			Riccio
+		nl-NL
+			Type krul
+	FiltreFonctions
+		x-default
+			Fonction
+		fr-FR
+			Fonction
+		it-IT
+			Funzioni
+		nl-NL
+			Functies
+	FiltreSensDeBouclage
+		x-default
+			Sens de Bouclage
+		fr-FR
+			Sens De Bouclage
+		it-IT
+			Direzione del riccio
+		nl-NL
+			Krulrichting
+
+fohns
+	FiltreVitesseDAir
+		x-default
+			Vitesse d'air
+		fr-FR
+			Vitesse d'air
+		it-IT
+			Velocità dell'aria
+		nl-NL
+			Luchtsnelheid
+	FiltreFonctions
+		x-default
+			Fonction
+		fr-FR
+			Fonction
+		it-IT
+			Funzioni
+		nl-NL
+			Functies
+	FiltreAccessoire
+		x-default
+			Accessoire
+		fr-FR
+			Accessoire
+		it-IT
+			Accessori
+		nl-NL
+			Accessoires
+	FiltreBesoins
+		x-default
+			Besoin
+		fr-FR
+			Besoin
+		it-IT
+			Bisogno
+		nl-NL
+			Eigenschappen
+
+fohnborstels
+	FiltreFonctions
+		x-default
+			Fonction
+		fr-FR
+			Fonction
+		it-IT
+			Funzioni
+		nl-NL
+			Functies
+	FiltreBrosse
+		x-default
+			Brosse
+		fr-FR
+			Brosse
+		it-IT
+			Spazzola 
+		nl-NL
+			Borstelpinnen
+	FiltreAccessoire
+		x-default
+			Accessoire
+		fr-FR
+			Accessoire
+		it-IT
+			Accessori
+		nl-NL
+			Accessoires
+
+Stijlborstels
+	FiltreBesoins
+		x-default
+			Eigenschappen
+		nl-NL
+			Eigenschappen
+
+krultangen
+	FiltreBoucles
+		x-default
+			Boucle
+		fr-FR
+			Boucle
+		it-IT
+			Riccio
+		nl-NL
+			Type krul
+	FiltreAccessoire
+		x-default
+			Accessoire
+		fr-FR
+			Accessoire
+		it-IT
+			Accessori
+		nl-NL
+			Accessoires
+
+Mini
+
+multi-styler
+	FiltreBesoins
+		x-default
+			Besoin
+		fr-FR
+			Besoin
+		it-IT
+			Bisogno
+		nl-NL
+			Eigenschappen
+	FiltreBoucles
+		x-default
+			Boucle
+		fr-FR
+			Boucle
+		it-IT
+			Riccio
+		nl-NL
+			Type krul
+	FiltreAccessoire
+		x-default
+			Accessoire
+		fr-FR
+			Accessoire
+		it-IT
+			Accessori
+		nl-NL
+			Accessoires
+
+stijltangen
+	FiltreFonctions
+		x-default
+			Fonction
+		fr-FR
+			Fonction
+		it-IT
+			Funzioni
+		nl-NL
+			Functies
+	FiltreLongueurDeCheveux
+		x-default
+			Longueur des cheveux
+		fr-FR
+			Longueur des cheveux
+		it-IT
+			Lunghezza dei capelli
+		nl-NL
+			Haarlengte
+	FiltreTypeDeCheveux
+		x-default
+			Type de Cheveux
+		fr-FR
+			Type de Cheveux
+		it-IT
+			Tipo di capelli
+		nl-NL
+			Haartype
+	FiltreAccessoire
+		x-default
+			Accessoire
+		fr-FR
+			Accessoire
+		it-IT
+			Accessori
+		nl-NL
+			Accessoire
+
+twist-secret
+
+accessoires-kapsels
+
+brosses-a-cheveux
+	FiltreBesoins
+		fr-FR
+			Besoins
+		it-IT
+			Bisogni
+		nl-NL
+			Eigenschappen
+	FiltreTypeDeCheveux
+		fr-FR
+			Type de cheveux
+		it-IT
+			Tipo di capelli
+		nl-NL
+			Haartype
+	FiltrePicotsPoils
+		fr-FR
+			Picots/Poils
+		it-IT
+			Setole
+		nl-NL
+			Borstelpinnen
+	FiltreOptions
+		fr-FR
+			Option
+		it-IT
+			Opzione
+		nl-NL
+			Opties
+
+haaraccessoires
+	FiltreCollections
+		x-default
+			Collection
+		fr-FR
+			Collection
+		it-IT
+			Gamma
+		nl-NL
+			Collectie
+
+ontharing
+
+epilatoren
+	FiltreBesoins
+		x-default
+			Besoin
+		fr-FR
+			Besoin
+		it-IT
+			Bisogno
+		nl-NL
+			Eigenschappen
+	FiltreSystemes
+		x-default
+			Système
+		fr-FR
+			Système
+		it-IT
+			Sistema
+		nl-NL
+			Type kop
+	FiltreOptions
+		x-default
+			Options
+		fr-FR
+			Options
+		it-IT
+			Opzioni
+		nl-NL
+			Opties
+	FiltreAccessoire
+		x-default
+			Accessoires
+		fr-FR
+			Accessoires
+		it-IT
+			Accessori
+		nl-NL
+			Accessoires
+
+ipl-homelight
+	FiltreFormat
+		x-default
+			Format
+		fr-FR
+			Format
+		it-IT
+			Formato
+		nl-NL
+			Formaat
+	FiltreNombreDeFlash
+		x-default
+			Nombre de Flash
+		fr-FR
+			Nombre de Flash
+		it-IT
+			Numero di Flash
+		nl-NL
+			Aantal flitsen
+	FiltreFonctions
+		x-default
+			Fonction
+		fr-FR
+			Fonction
+		it-IT
+			Funzioni
+		nl-NL
+			Functies
+	FiltreOptions
+		x-default
+			Options
+		fr-FR
+			Options
+		it-IT
+			Opzioni
+		nl-NL
+			Opties
+
+verzorging
+
+make-up accessoires
+
+manicure-en-pedicure
+	FiltreFonctions
+		x-default
+			Fonctions
+		fr-FR
+			Fonctions
+		it-IT
+			Funzioni
+		nl-NL
+			Functies
+
+spiegels
+	FiltreFonctions
+		x-default
+			Fonctions
+		fr-FR
+			Fonctions
+		it-IT
+			Funzioni
+		nl-NL
+			Functies
+	FiltreOptions
+		x-default
+			Options
+		fr-FR
+			Options
+		it-IT
+			Opzioni
+		nl-NL
+			Opties
+
+toilettassen
+	FiltreCollections
+		x-default
+			Collections
+		fr-FR
+			Collections
+		it-IT
+			Collezioni
+		nl-NL
+			Collectie
+
+actie-vrouwen
+
+man
+
+baard
+
+baardtrimmers
+	FiltreHauteurDecoupe
+		x-default
+			Hauteur de Coupe
+		fr-FR
+			Hauteur de Coupe
+		it-IT
+			Altezza di taglio
+		nl-NL
+			Lengte instellingen
+	FiltrePrecisions
+		x-default
+			Précisions
+		fr-FR
+			Précisions
+		it-IT
+			Precisione
+		nl-NL
+			Precisie instelling
+	FiltreReglageHauteur
+		x-default
+			Réglage Hauteur
+		fr-FR
+			Réglage Hauteur
+		it-IT
+			Regolazione Altezza
+		nl-NL
+			Bediening hoogte instelling
+	FiltreFonctions
+		x-default
+			Fonction
+		fr-FR
+			Fonction
+		it-IT
+			Funzioni
+		nl-NL
+			Functies
+	FiltreUtilisations
+		x-default
+			Utilisation
+		fr-FR
+			Utilisation
+		it-IT
+			Utilizzo
+		nl-NL
+			Gebruik
+	FiltreAccessoire
+		x-default
+			Accessoires
+		fr-FR
+			Accessoires
+		it-IT
+			Accessori
+		nl-NL
+			Accessoires
+
+Beard Designer
+
+baardverzorging
+	FiltreBesoins
+		x-default
+			Besoin
+		fr-FR
+			Besoin
+		it-IT
+			Bisogno
+		nl-NL
+			Eigenschappen
+
+Multigrooming sets
+	FiltreUsages
+		x-default
+			Usage
+		fr-FR
+			Usage
+		it-IT
+			Utilizzo
+		nl-NL
+			Gebruik
+	FiltreOptions
+		x-default
+			Options
+		fr-FR
+			Options
+		it-IT
+			Opzioni
+		nl-NL
+			Opties
+	FiltreFonctions
+		x-default
+			Fonctions
+		fr-FR
+			Fonctions
+		it-IT
+			Funzioni
+		nl-NL
+			Functies
+	FiltreAccessoire
+		x-default
+			Accessoires
+		fr-FR
+			Accessoires
+		it-IT
+			Accessori
+		nl-NL
+			Accessoires
+
+actie-mannen
+
+haar
+
+Tondeuses
+	FiltreHauteurDecoupe
+		x-default
+			Hauteur de Coupe
+		fr-FR
+			Hauteur de Coupe
+		it-IT
+			Altezza di taglio
+		nl-NL
+			Lengte instellingen
+	FiltrePrecisions
+		x-default
+			Précisions
+		fr-FR
+			Précisions
+		it-IT
+			Precisione
+		nl-NL
+			Precisie instelling
+	FiltreMoteurs
+		x-default
+			Moteur
+		fr-FR
+			Moteur
+		it-IT
+			Motore
+		nl-NL
+			Motor
+	FiltreFonctions
+		x-default
+			Fonction
+		fr-FR
+			Fonction
+		it-IT
+			Funzioni
+		nl-NL
+			Functies
+	FiltreUtilisations
+		x-default
+			Utilisation
+		fr-FR
+			Utilisation
+		it-IT
+			Utilizzo
+		nl-NL
+			Gebruik
+	FiltreAccessoire
+		x-default
+			Accessoires
+		fr-FR
+			Accessoires
+		it-IT
+			Accessori
+		nl-NL
+			Accessoires
+
+trimmer-multifunctionele-haar
+	FiltreUsages
+		x-default
+			Usage
+		fr-FR
+			Usage
+		it-IT
+			Utilizzo
+		nl-NL
+			Gebruik
+	FiltreOptions
+		x-default
+			Options
+		fr-FR
+			Options
+		it-IT
+			Opzioni
+		nl-NL
+			Opties
+	FiltreFonctions
+		x-default
+			Fonction
+		fr-FR
+			Fonction
+		it-IT
+			Funzioni
+		nl-NL
+			Functies
+	FiltreAccessoire
+		x-default
+			Accessoire
+		fr-FR
+			Accessoire
+		it-IT
+			Accessori
+		nl-NL
+			Accessoires
+
+lichaam
+
+multi-grooming-set-body
+	FiltreUsages
+		x-default
+			Usage
+		fr-FR
+			Usage
+		it-IT
+			Utilizzo
+		nl-NL
+			Gebruik
+	FiltreOptions
+		x-default
+			Options
+		fr-FR
+			Options
+		it-IT
+			Opzioni
+		nl-NL
+			Opties
+	FiltreFonctions
+		x-default
+			Fonction
+		fr-FR
+			Fonction
+		it-IT
+			Funzioni
+		nl-NL
+			Functies
+	FiltreAccessoire
+		x-default
+			Accessoire
+		fr-FR
+			Accessoire
+		it-IT
+			Accessori
+		nl-NL
+			Accessoire
+
+neus-oor-trimmer
+	FiltreOptions
+		x-default
+			Options
+		fr-FR
+			Options
+		it-IT
+			Opzioni
+		nl-NL
+			Opties
+	FiltreAccessoire
+		x-default
+			Accessoires
+		fr-FR
+			Accessoires
+		it-IT
+			Accessori
+		nl-NL
+			Accessoires
+
+ipl-homelight-man
+
+toilettassen-man
+	FiltreStyle
+		x-default
+			Style
+		fr-FR
+			Style
+		it-IT
+			Stile
+		nl-NL
+			Stijl
+	FiltreMatiere
+		x-default
+			Matières
+		fr-FR
+			Matières
+		it-IT
+			Materie
+		nl-NL
+			Materialen
+
+al-toilettassen
+
+make-up-accessoires
+
+multigrooming_sets
+
+stijlborstels
+
+tondeuses
